@@ -4117,3 +4117,5 @@
 2026-03-17 22:19:37 [info]: ::1 - - [17/Mar/2026:16:49:37 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
 2026-03-17 22:19:37 [info]: ::1 - - [17/Mar/2026:16:49:37 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
 2026-03-17 22:19:37 [info]: ::1 - - [17/Mar/2026:16:49:37 +0000] "GET /favicon.ico HTTP/1.1" 404 40 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-17 23:05:39 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
+2026-03-17 23:05:39 [info]: ✅ MongoDB Connected: localhost
