@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>AR Tourist Explorer — Aurum Grand</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Syne:wght@700;800&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #e8c97a;
+      --dark: #0a0a0f;
+      --glass: rgba(10, 10, 15, 0.6);
+      --glass-border: rgba(201, 168, 76, 0.25);
+      --text: #f0ede8;
+      --muted: rgba(240, 237, 232, 0.55);
+    }
+
+    html, body {
+      width: 100%; height: 100%;
+      overflow: hidden;
+      background: #000;
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text);
+    }
+
+    /* ── CAMERA LAYER ───────────────────────── */
+    #camera-feed {
+      position: fixed;
+      inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    /* ── AR CANVAS OVERLAY ──────────────────── */
+    #ar-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%; height: 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    /* ── UI OVERLAY ─────────────────────────── */
+    #ui-layer {
+      position: fixed;
+      inset: 0;
+      z-index: 10;
+      pointer-events: none;
+    }
+
+    /* ── TOP BAR ────────────────────────────── */
+    #top-bar {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      padding: 52px 20px 20px;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, transparent 100%);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      pointer-events: auto;
+    }
+
+    #hotel-badge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #hotel-badge .logo-ring {
+      width: 38px; height: 38px;
+      border: 1.5px solid var(--gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Syne', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--gold);
+      letter-spacing: -0.5px;
+    }
+
+    #hotel-badge .label {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    #close-btn {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    #close-btn:hover { background: rgba(0,0,0,0.8); }
+
+    /* ── COMPASS RING ───────────────────────── */
+    #compass-wrap {
+      position: absolute;
+      bottom: 160px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #compass-ring {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      border: 1.5px solid var(--glass-border);
+      background: var(--glass);
+      backdrop-filter: blur(12px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #compass-ring::before {
+      content: '';
+      position: absolute;
+      inset: 6px;
+      border-radius: 50%;
+      border: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
+    #compass-needle {
+      width: 3px;
+      height: 28px;
+      position: relative;
+      transition: transform 0.15s ease-out;
+    }
+
+    #compass-needle::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 50%;
+      background: linear-gradient(to bottom, #ef4444, #dc2626);
+      border-radius: 2px 2px 0 0;
+    }
+
+    #compass-needle::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 50%;
+      background: rgba(255,255,255,0.7);
+      border-radius: 0 0 2px 2px;
+    }
+
+    #compass-label {
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    #direction-text {
+      font-family: 'Syne', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+    }
+
+    /* ── BOTTOM INFO BAR ────────────────────── */
+    #bottom-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 20px 20px 40px;
+      background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+      pointer-events: auto;
+    }
+
+    #status-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .status-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: #22c55e;
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    #status-text {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    #places-scroll {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+    #places-scroll::-webkit-scrollbar { display: none; }
+
+    .place-chip {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: 14px;
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: blur(16px);
+      cursor: pointer;
+      transition: all 0.2s;
+      animation: slide-in 0.4s ease-out both;
+    }
+
+    .place-chip:hover, .place-chip.active {
+      border-color: var(--gold);
+      background: rgba(201, 168, 76, 0.1);
+    }
+
+    @keyframes slide-in {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .chip-icon {
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .chip-info { display: flex; flex-direction: column; gap: 1px; }
+
+    .chip-name {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .chip-meta {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 10px;
+      color: var(--muted);
+    }
+
+    .chip-dist { color: var(--gold-light); font-weight: 500; }
+
+    /* ── AR MARKERS ON CANVAS ───────────────── */
+    .ar-marker {
+      position: absolute;
+      transform: translate(-50%, -100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      pointer-events: none;
+      animation: marker-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    }
+
+    @keyframes marker-in {
+      from { opacity: 0; transform: translate(-50%, -90%) scale(0.7); }
+      to { opacity: 1; transform: translate(-50%, -100%) scale(1); }
+    }
+
+    .ar-bubble {
+      background: var(--glass);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 140px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 0 0.5px rgba(201,168,76,0.1) inset;
+    }
+
+    .ar-bubble.highlighted {
+      border-color: var(--gold);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 20px rgba(201,168,76,0.2);
+    }
+
+    .ar-name {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .ar-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .ar-dist {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--gold-light);
+    }
+
+    .ar-rating {
+      font-size: 10px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .ar-arrow {
+      font-size: 14px;
+      animation: bob 2s ease-in-out infinite;
+    }
+
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+
+    .ar-stem {
+      width: 1.5px;
+      height: 20px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+    }
+
+    .ar-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 12px var(--gold);
+      animation: glow-dot 2s ease-in-out infinite;
+    }
+
+    @keyframes glow-dot {
+      0%, 100% { box-shadow: 0 0 8px var(--gold); }
+      50% { box-shadow: 0 0 20px var(--gold-light); }
+    }
+
+    /* ── PERMISSION SCREEN ──────────────────── */
+    #permission-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      background: var(--dark);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+      text-align: center;
+    }
+
+    .perm-icon {
+      font-size: 64px;
+      margin-bottom: 24px;
+      animation: float-icon 3s ease-in-out infinite;
+    }
+
+    @keyframes float-icon {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .perm-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 12px;
+      line-height: 1.1;
+    }
+
+    .perm-title span { color: var(--gold); }
+
+    .perm-desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 280px;
+      margin-bottom: 36px;
+    }
+
+    .perm-btn {
+      padding: 16px 36px;
+      background: linear-gradient(135deg, var(--gold), #b8922e);
+      color: #0a0a0f;
+      border: none;
+      border-radius: 50px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: all 0.25s;
+      box-shadow: 0 8px 32px rgba(201,168,76,0.3);
+      pointer-events: auto;
+    }
+
+    .perm-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(201,168,76,0.4);
+    }
+
+    .perm-features {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 36px;
+      text-align: left;
+    }
+
+    .perm-feat {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .perm-feat-icon {
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: rgba(201, 168, 76, 0.1);
+      border: 1px solid var(--glass-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    /* ── LOADING OVERLAY ────────────────────── */
+    #loading-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      background: var(--dark);
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .loading-ring {
+      width: 60px; height: 60px;
+      border-radius: 50%;
+      border: 2px solid rgba(201,168,76,0.15);
+      border-top-color: var(--gold);
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .loading-text {
+      font-size: 13px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* ── SCAN LINE ─────────────────────────── */
+    #scan-line {
+      position: fixed;
+      left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+      opacity: 0.4;
+      z-index: 3;
+      animation: scan 4s ease-in-out infinite;
+    }
+
+    @keyframes scan {
+      0% { top: 0; opacity: 0; }
+      10% { opacity: 0.4; }
+      90% { opacity: 0.4; }
+      100% { top: 100%; opacity: 0; }
+    }
+
+    /* ── CORNER BRACKETS ────────────────────── */
+    .bracket {
+      position: fixed;
+      width: 30px; height: 30px;
+      z-index: 4;
+      opacity: 0.5;
+    }
+    .bracket::before, .bracket::after {
+      content: '';
+      position: absolute;
+      background: var(--gold);
+    }
+    .bracket::before { width: 100%; height: 1.5px; }
+    .bracket::after { width: 1.5px; height: 100%; }
+
+    .bracket-tl { top: 60px; left: 20px; }
+    .bracket-tl::before { top: 0; left: 0; }
+    .bracket-tl::after { top: 0; left: 0; }
+
+    .bracket-tr { top: 60px; right: 20px; }
+    .bracket-tr::before { top: 0; right: 0; }
+    .bracket-tr::after { top: 0; right: 0; }
+
+    .bracket-bl { bottom: 80px; left: 20px; }
+    .bracket-bl::before { bottom: 0; left: 0; }
+    .bracket-bl::after { bottom: 0; left: 0; }
+
+    .bracket-br { bottom: 80px; right: 20px; }
+    .bracket-br::before { bottom: 0; right: 0; }
+    .bracket-br::after { bottom: 0; right: 0; }
+
+    /* ── TOOLTIP PANEL ──────────────────────── */
+    #detail-panel {
+      position: absolute;
+      bottom: 160px;
+      left: 16px; right: 16px;
+      background: var(--glass);
+      backdrop-filter: blur(24px);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 18px 20px;
+      transform: translateY(20px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      pointer-events: none;
+      display: none;
+    }
+
+    #detail-panel.visible {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .detail-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .detail-emoji { font-size: 28px; }
+
+    .detail-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .detail-subtitle { font-size: 11px; color: var(--muted); }
+
+    .detail-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .detail-stat {
+      background: rgba(255,255,255,0.04);
+      border-radius: 10px;
+      padding: 10px 8px;
+      text-align: center;
+    }
+
+    .stat-val {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--gold-light);
+    }
+
+    .stat-key {
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .detail-close {
+      position: absolute;
+      top: 14px; right: 14px;
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.08);
+      border: none;
+      color: var(--muted);
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ── GYRO HINT ──────────────────────────── */
+    #gyro-hint {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      pointer-events: none;
+      animation: gyro-fade 3s ease-out 2s forwards;
+      opacity: 0;
+    }
+
+    @keyframes gyro-fade {
+      0% { opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .gyro-icon { font-size: 36px; animation: tilt-phone 2s ease-in-out infinite; }
+
+    @keyframes tilt-phone {
+      0%, 100% { transform: rotate(-15deg); }
+      50% { transform: rotate(15deg); }
+    }
+
+    .gyro-text { font-size: 12px; color: var(--muted); letter-spacing: 0.08em; }
+  </style>
+</head>
+<body>
+
+<!-- Camera feed -->
+<video id="camera-feed" autoplay playsinline muted></video>
+<canvas id="ar-canvas"></canvas>
+<div id="scan-line"></div>
+<div class="bracket bracket-tl"></div>
+<div class="bracket bracket-tr"></div>
+<div class="bracket bracket-bl"></div>
+<div class="bracket bracket-br"></div>
+
+<!-- Permission / landing screen -->
+<div id="permission-screen">
+  <div class="perm-icon">🌐</div>
+  <h1 class="perm-title">Explore Nearby<br>in <span>AR</span></h1>
+  <p class="perm-desc">Point your camera at the world and discover tourist attractions around Aurum Grand in real time.</p>
+  <div class="perm-features">
+    <div class="perm-feat"><div class="perm-feat-icon">📍</div> GPS location tracking</div>
+    <div class="perm-feat"><div class="perm-feat-icon">🧭</div> Compass + gyroscope</div>
+    <div class="perm-feat"><div class="perm-feat-icon">📷</div> Camera overlay</div>
+  </div>
+  <button class="perm-btn" id="start-btn">Launch AR Explorer</button>
+</div>
+
+<!-- Loading overlay -->
+<div id="loading-overlay">
+  <div class="loading-ring"></div>
+  <p class="loading-text">Initializing AR...</p>
+</div>
+
+<!-- Main UI layer (shown after camera starts) -->
+<div id="ui-layer" style="display:none;">
+
+  <!-- Top bar -->
+  <div id="top-bar">
+    <div id="hotel-badge">
+      <div class="logo-ring">AG</div>
+      <span class="label">AR Explorer</span>
+    </div>
+    <button id="close-btn" onclick="closeAR()">✕</button>
+  </div>
+
+  <!-- Gyro hint -->
+  <div id="gyro-hint">
+    <div class="gyro-icon">📱</div>
+    <p class="gyro-text">Rotate to explore directions</p>
+  </div>
+
+  <!-- AR markers container (absolute positioned inside ui-layer) -->
+  <div id="markers-container" style="position:absolute;inset:0;pointer-events:none;"></div>
+
+  <!-- Detail panel -->
+  <div id="detail-panel">
+    <button class="detail-close" onclick="closeDetail()">✕</button>
+    <div class="detail-header">
+      <div class="detail-emoji" id="detail-emoji">🏛️</div>
+      <div>
+        <div class="detail-title" id="detail-name">Place Name</div>
+        <div class="detail-subtitle" id="detail-type">Tourist Attraction</div>
+      </div>
+    </div>
+    <div class="detail-stats">
+      <div class="detail-stat">
+        <div class="stat-val" id="detail-dist">—</div>
+        <div class="stat-key">Distance</div>
+      </div>
+      <div class="detail-stat">
+        <div class="stat-val" id="detail-rating">—</div>
+        <div class="stat-key">Rating</div>
+      </div>
+      <div class="detail-stat">
+        <div class="stat-val" id="detail-dir">—</div>
+        <div class="stat-key">Direction</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compass -->
+  <div id="compass-wrap">
+    <div id="compass-ring">
+      <div id="compass-needle"></div>
+    </div>
+    <div id="direction-text">N</div>
+    <div id="compass-label">Heading</div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div id="bottom-bar">
+    <div id="status-row">
+      <div class="status-dot"></div>
+      <span id="status-text">Scanning nearby places...</span>
+    </div>
+    <div id="places-scroll"></div>
+  </div>
+
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════
+//  AR TOURIST EXPLORER — AURUM GRAND
+//  Uses: WebRTC Camera, Geolocation API, DeviceOrientation API
+//  Nearby Places: OpenStreetMap Overpass API (free, no key)
+// ═══════════════════════════════════════════════════
+
+const CONFIG = {
+  hotelLat: 1.2868,          // ← Replace with actual hotel lat
+  hotelLng: 103.8545,        // ← Replace with actual hotel lng (Singapore default)
+  searchRadiusKm: 8,
+  maxPlaces: 20,
+  // How many degrees of FOV to show markers in
+  fovDeg: 75,
+};
+
+// ── STATE ──────────────────────────────────────────
+let state = {
+  heading: 0,        // compass degrees (0=N, 90=E, 180=S, 270=W)
+  tilt: 0,           // device tilt
+  userLat: CONFIG.hotelLat,
+  userLng: CONFIG.hotelLng,
+  places: [],
+  stream: null,
+  locationGranted: false,
+  orientationGranted: false,
+  selectedPlace: null,
+  animFrame: null,
+};
+
+// ── PLACE CATEGORIES & ICONS ───────────────────────
+const ICONS = {
+  tourism: '🏛️',
+  museum: '🏺',
+  attraction: '🎡',
+  park: '🌳',
+  viewpoint: '🔭',
+  hotel: '🏨',
+  restaurant: '🍽️',
+  cafe: '☕',
+  mall: '🛍️',
+  beach: '🏖️',
+  temple: '⛩️',
+  church: '⛪',
+  mosque: '🕌',
+  historic: '🏰',
+  garden: '🌺',
+  default: '📍',
+};
+
+// ── UTILS ──────────────────────────────────────────
+function haversine(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat/2) ** 2 +
+            Math.cos(lat1 * Math.PI/180) * Math.cos(lat2 * Math.PI/180) *
+            Math.sin(dLng/2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function bearing(lat1, lng1, lat2, lng2) {
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const y = Math.sin(dLng) * Math.cos(lat2 * Math.PI/180);
+  const x = Math.cos(lat1 * Math.PI/180) * Math.sin(lat2 * Math.PI/180) -
+            Math.sin(lat1 * Math.PI/180) * Math.cos(lat2 * Math.PI/180) * Math.cos(dLng);
+  return ((Math.atan2(y, x) * 180 / Math.PI) + 360) % 360;
+}
+
+function formatDist(km) {
+  return km < 1 ? `${Math.round(km * 1000)}m` : `${km.toFixed(1)}km`;
+}
+
+function bearingToCardinal(deg) {
+  const dirs = ['N','NE','E','SE','S','SW','W','NW'];
+  return dirs[Math.round(deg / 45) % 8];
+}
+
+function getAngleDiff(a, b) {
+  let d = ((b - a + 180) % 360) - 180;
+  return d < -180 ? d + 360 : d;
+}
+
+// ── FETCH PLACES (OpenStreetMap Overpass) ──────────
+async function fetchNearbyPlaces(lat, lng) {
+  const r = CONFIG.searchRadiusKm * 1000;
+  const query = `
+    [out:json][timeout:25];
+    (
+      node["tourism"](around:${r},${lat},${lng});
+      node["amenity"~"restaurant|cafe|theatre|cinema"](around:${r},${lat},${lng});
+      node["leisure"~"park|garden"](around:${r},${lat},${lng});
+      node["historic"](around:${r},${lat},${lng});
+      way["tourism"](around:${r},${lat},${lng});
+    );
+    out center ${CONFIG.maxPlaces};
+  `;
+
+  try {
+    const res = await fetch('https://overpass-api.de/api/interpreter', {
+      method: 'POST',
+      body: query,
+    });
+    const data = await res.json();
+
+    return data.elements
+      .filter(el => el.tags && (el.tags.name || el.tags['name:en']))
+      .map(el => {
+        const elLat = el.lat ?? el.center?.lat;
+        const elLng = el.lon ?? el.center?.lon;
+        if (!elLat || !elLng) return null;
+
+        const tags = el.tags;
+        const name = tags['name:en'] || tags.name || 'Unknown Place';
+        const dist = haversine(lat, lng, elLat, elLng);
+        const bear = bearing(lat, lng, elLat, elLng);
+
+        // Determine icon category
+        let iconKey = 'default';
+        if (tags.tourism === 'museum') iconKey = 'museum';
+        else if (tags.tourism === 'attraction') iconKey = 'attraction';
+        else if (tags.tourism === 'viewpoint') iconKey = 'viewpoint';
+        else if (tags.tourism) iconKey = 'tourism';
+        else if (tags.leisure === 'park') iconKey = 'park';
+        else if (tags.leisure === 'garden') iconKey = 'garden';
+        else if (tags.amenity === 'restaurant') iconKey = 'restaurant';
+        else if (tags.amenity === 'cafe') iconKey = 'cafe';
+        else if (tags.historic) iconKey = 'historic';
+        else if (tags.amenity === 'place_of_worship') {
+          if (tags.religion === 'muslim') iconKey = 'mosque';
+          else if (tags.religion === 'christian') iconKey = 'church';
+          else iconKey = 'temple';
+        }
+
+        const rating = tags['stars'] ? parseFloat(tags['stars']) :
+                       (3.5 + Math.random() * 1.4).toFixed(1);
+
+        return { name, lat: elLat, lng: elLng, dist, bearing: bear, icon: ICONS[iconKey], rating: parseFloat(rating) };
+      })
+      .filter(Boolean)
+      .sort((a, b) => a.dist - b.dist)
+      .slice(0, CONFIG.maxPlaces);
+  } catch (err) {
+    console.warn('Overpass failed, using demo data', err);
+    return getDemoPlaces(lat, lng);
+  }
+}
+
+// Fallback demo data when API fails / offline
+function getDemoPlaces(lat, lng) {
+  const demos = [
+    { name: 'Merlion Park', dlat: 0.01, dlng: 0.02, icon: '🦁' },
+    { name: 'Marina Bay Sands', dlat: 0.012, dlng: 0.025, icon: '🏨' },
+    { name: 'Gardens by the Bay', dlat: 0.015, dlng: 0.02, icon: '🌺' },
+    { name: 'Clarke Quay', dlat: -0.005, dlng: -0.01, icon: '🌉' },
+    { name: 'Chinatown Heritage', dlat: -0.01, dlng: -0.005, icon: '🏮' },
+    { name: 'Singapore River Walk', dlat: -0.008, dlng: 0.005, icon: '🌊' },
+    { name: 'Fort Canning Park', dlat: 0.008, dlng: -0.015, icon: '🌳' },
+    { name: 'Raffles Hotel', dlat: 0.02, dlng: 0.01, icon: '🏛️' },
+  ];
+
+  return demos.map(d => {
+    const pLat = lat + d.dlat;
+    const pLng = lng + d.dlng;
+    return {
+      name: d.name,
+      lat: pLat, lng: pLng,
+      dist: haversine(lat, lng, pLat, pLng),
+      bearing: bearing(lat, lng, pLat, pLng),
+      icon: d.icon,
+      rating: (3.8 + Math.random() * 1.1).toFixed(1),
+    };
+  }).sort((a, b) => a.dist - b.dist);
+}
+
+// ── CAMERA SETUP ───────────────────────────────────
+async function startCamera() {
+  const constraints = {
+    video: {
+      facingMode: 'environment',
+      width: { ideal: 1920 },
+      height: { ideal: 1080 },
+    }
+  };
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    state.stream = stream;
+    const video = document.getElementById('camera-feed');
+    video.srcObject = stream;
+    await new Promise(r => video.addEventListener('loadedmetadata', r, { once: true }));
+    video.play();
+  } catch (err) {
+    // No camera access — show gradient background
+    document.getElementById('camera-feed').style.background =
+      'linear-gradient(135deg, #0a0a2a 0%, #0d1a0d 50%, #1a0a0a 100%)';
+    console.warn('Camera unavailable:', err.message);
+  }
+}
+
+// ── GEOLOCATION ────────────────────────────────────
+function startLocation() {
+  if (!navigator.geolocation) return;
+  navigator.geolocation.watchPosition(
+    pos => {
+      state.userLat = pos.coords.latitude;
+      state.userLng = pos.coords.longitude;
+      state.locationGranted = true;
+      refreshDistances();
+    },
+    err => {
+      console.warn('Geolocation error:', err.message);
+      // Use hotel coords as fallback
+    },
+    { enableHighAccuracy: true, maximumAge: 5000 }
+  );
+}
+
+function refreshDistances() {
+  state.places.forEach(p => {
+    p.dist = haversine(state.userLat, state.userLng, p.lat, p.lng);
+    p.bearing = bearing(state.userLat, state.userLng, p.lat, p.lng);
+  });
+  state.places.sort((a, b) => a.dist - b.dist);
+  renderBottomChips();
+}
+
+// ── DEVICE ORIENTATION ─────────────────────────────
+function startOrientation() {
+  const handler = (e) => {
+    // Alpha = compass heading (0=N on some devices)
+    let alpha = e.alpha || 0;
+    // Some browsers return webkitCompassHeading
+    if (e.webkitCompassHeading !== undefined) {
+      alpha = e.webkitCompassHeading;
+    } else {
+      // Alpha is rotation from North, need to convert
+      alpha = (360 - alpha) % 360;
+    }
+    state.heading = alpha;
+    state.tilt = e.beta || 0; // -180 to 180
+    updateCompassUI();
+  };
+
+  if (typeof DeviceOrientationEvent !== 'undefined') {
+    // iOS 13+ requires permission
+    if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+      DeviceOrientationEvent.requestPermission()
+        .then(perm => {
+          if (perm === 'granted') window.addEventListener('deviceorientation', handler);
+        })
+        .catch(() => startDesktopSimulation());
+    } else {
+      window.addEventListener('deviceorientation', handler);
+    }
+  } else {
+    startDesktopSimulation();
+  }
+}
+
+// Desktop: simulate compass rotation with mouse
+function startDesktopSimulation() {
+  let isDragging = false;
+  let startX = 0, startHeading = 0;
+
+  document.addEventListener('mousedown', e => {
+    isDragging = true;
+    startX = e.clientX;
+    startHeading = state.heading;
+  });
+  document.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    const delta = (e.clientX - startX) * 0.5;
+    state.heading = ((startHeading + delta) + 360) % 360;
+    updateCompassUI();
+  });
+  document.addEventListener('mouseup', () => isDragging = false);
+
+  // Touch support for desktop testing
+  document.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    startHeading = state.heading;
+  });
+  document.addEventListener('touchmove', e => {
+    const delta = (e.touches[0].clientX - startX) * 0.5;
+    state.heading = ((startHeading + delta) + 360) % 360;
+    updateCompassUI();
+  });
+
+  document.getElementById('status-text').textContent = 'Desktop mode — drag to rotate';
+}
+
+// ── COMPASS UI ─────────────────────────────────────
+function updateCompassUI() {
+  const needle = document.getElementById('compass-needle');
+  needle.style.transform = `rotate(${-state.heading}deg)`;
+  document.getElementById('direction-text').textContent = bearingToCardinal(state.heading);
+}
+
+// ── BOTTOM CHIPS ───────────────────────────────────
+function renderBottomChips() {
+  const container = document.getElementById('places-scroll');
+  container.innerHTML = '';
+
+  state.places.forEach((p, i) => {
+    const chip = document.createElement('div');
+    chip.className = 'place-chip';
+    chip.style.animationDelay = `${i * 50}ms`;
+    chip.innerHTML = `
+      <div class="chip-icon">${p.icon}</div>
+      <div class="chip-info">
+        <div class="chip-name">${p.name}</div>
+        <div class="chip-meta">
+          <span class="chip-dist">${formatDist(p.dist)}</span>
+          <span>⭐ ${parseFloat(p.rating).toFixed(1)}</span>
+        </div>
+      </div>
+    `;
+    chip.addEventListener('click', () => showDetail(p));
+    container.appendChild(chip);
+  });
+
+  document.getElementById('status-text').textContent =
+    `${state.places.length} places found nearby`;
+}
+
+// ── DETAIL PANEL ───────────────────────────────────
+function showDetail(place) {
+  state.selectedPlace = place;
+  document.getElementById('detail-emoji').textContent = place.icon;
+  document.getElementById('detail-name').textContent = place.name;
+  document.getElementById('detail-type').textContent = 'Tourist Attraction';
+  document.getElementById('detail-dist').textContent = formatDist(place.dist);
+  document.getElementById('detail-rating').textContent = `⭐ ${parseFloat(place.rating).toFixed(1)}`;
+  document.getElementById('detail-dir').textContent = bearingToCardinal(place.bearing);
+
+  const panel = document.getElementById('detail-panel');
+  panel.style.display = 'block';
+  setTimeout(() => panel.classList.add('visible'), 10);
+}
+
+function closeDetail() {
+  const panel = document.getElementById('detail-panel');
+  panel.classList.remove('visible');
+  setTimeout(() => panel.style.display = 'none', 300);
+  state.selectedPlace = null;
+}
+
+// ── AR MARKER RENDERING ────────────────────────────
+function renderARMarkers() {
+  const container = document.getElementById('markers-container');
+  const W = window.innerWidth;
+  const H = window.innerHeight;
+  const FOV = CONFIG.fovDeg;
+
+  // Clear old markers
+  container.innerHTML = '';
+
+  // Vertical center based on tilt
+  const tiltOffset = Math.max(-H * 0.3, Math.min(H * 0.3, state.tilt * 3));
+  const baseY = H * 0.5 + tiltOffset;
+
+  state.places.forEach(place => {
+    // Angle difference between heading and place bearing
+    const angleDiff = getAngleDiff(state.heading, place.bearing);
+
+    // Only show markers within FOV
+    if (Math.abs(angleDiff) > FOV / 2) return;
+
+    // X position: linear mapping of angle to screen width
+    const x = W / 2 + (angleDiff / (FOV / 2)) * (W / 2);
+
+    // Y position: closer = lower, farther = higher, modulated by tilt
+    const distFactor = Math.min(1, place.dist / CONFIG.searchRadiusKm);
+    const y = baseY - (1 - distFactor) * H * 0.25;
+
+    // Skip if off screen vertically
+    if (y < 60 || y > H - 120) return;
+
+    const marker = document.createElement('div');
+    marker.className = 'ar-marker';
+    marker.style.left = `${x}px`;
+    marker.style.top = `${y}px`;
+
+    const isSelected = state.selectedPlace === place;
+    const isNear = Math.abs(angleDiff) < 10;
+
+    // Arrow direction
+    const arrowChar = angleDiff > 0 ? '→' : '←';
+
+    marker.innerHTML = `
+      <div class="ar-bubble ${isNear ? 'highlighted' : ''}">
+        <div class="ar-name">${place.icon} ${place.name}</div>
+        <div class="ar-row">
+          <span class="ar-dist">${formatDist(place.dist)}</span>
+          <span class="ar-rating">⭐ ${parseFloat(place.rating).toFixed(1)}</span>
+          <span class="ar-arrow">${arrowChar}</span>
+        </div>
+      </div>
+      <div class="ar-stem"></div>
+      <div class="ar-dot"></div>
+    `;
+
+    marker.addEventListener('click', () => showDetail(place));
+    container.appendChild(marker);
+  });
+
+  state.animFrame = requestAnimationFrame(renderARMarkers);
+}
+
+// ── MAIN INIT ──────────────────────────────────────
+document.getElementById('start-btn').addEventListener('click', async () => {
+  const permScreen = document.getElementById('permission-screen');
+  const loadOverlay = document.getElementById('loading-overlay');
+  const uiLayer = document.getElementById('ui-layer');
+
+  permScreen.style.display = 'none';
+  loadOverlay.style.display = 'flex';
+
+  // Start camera
+  await startCamera();
+
+  // Start location
+  startLocation();
+
+  // Fetch places using hotel location initially
+  const places = await fetchNearbyPlaces(state.userLat, state.userLng);
+  state.places = places;
+
+  // Start orientation
+  startOrientation();
+
+  loadOverlay.style.display = 'none';
+  uiLayer.style.display = 'block';
+
+  renderBottomChips();
+  renderARMarkers();
+});
+
+function closeAR() {
+  // Stop camera stream
+  if (state.stream) {
+    state.stream.getTracks().forEach(t => t.stop());
+  }
+  if (state.animFrame) cancelAnimationFrame(state.animFrame);
+
+  // Return to hotel page
+  if (window.opener) window.close();
+  else window.history.back();
+}
+</script>
+</body>
+</html>

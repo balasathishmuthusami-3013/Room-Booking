@@ -1,0 +1,242 @@
+2026-03-04 12:04:44 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:04:49 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:04:49 [error]: MongoDB error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:04:54 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:04:54 [error]: MongoDB error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:04:59 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:04:59 [error]: MongoDB error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:04 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:04 [error]: MongoDB error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:09 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:09 [error]: MongoDB error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:14 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:14 [error]: MongoDB error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:19 [error]: ❌ MongoDB Connection Error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-04 12:05:19 [error]: MongoDB error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2026-03-05 17:16:09 [error]: CastError: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Room"
+    at SchemaObjectId.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaType.applySetters (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaType.castForQuery (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1724:17)
+    at cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getRoom (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\room.controller.js:44:18)
+2026-03-05 17:16:09 [error]: CastError: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Room"
+    at SchemaObjectId.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaType.applySetters (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaType.castForQuery (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1724:17)
+    at cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getRoom (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\room.controller.js:44:18)
+2026-03-09 13:28:10 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 13:28:27 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 13:28:32 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 13:28:35 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 13:34:23 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 13:36:02 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 14:42:31 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 14:43:31 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 15:36:38 [error]: Error: Amadeus API credentials not configured in environment variables.
+    at getClient (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:23:11)
+    at exports.searchHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:44:19)
+    at exports.getHotels (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:25:41)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\express\lib\router\index.js:346:12)
+2026-03-09 15:41:36 [error]: [Amadeus] Offers fetch failed for XLMAARHA: Provider Error - INVALID PROPERTY CODE
+2026-03-09 15:41:36 [error]: Error: Provider Error - INVALID PROPERTY CODE
+    at exports.getHotelOffers (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:175:11)
+    at async exports.getHotelRooms (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:39:31)
+2026-03-09 15:42:35 [error]: [Amadeus] Offers fetch failed for DSMAA001: Provider Error - NO ROOMS AVAILABLE AT REQUESTED PROPERTY
+2026-03-09 15:42:35 [error]: Error: Provider Error - NO ROOMS AVAILABLE AT REQUESTED PROPERTY
+    at exports.getHotelOffers (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:175:11)
+    at async exports.getHotelRooms (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:39:31)
+2026-03-09 16:54:56 [error]: [Amadeus] Unexpected offers error for DSMAATPP: Provider Error - INVALID PROPERTY CODE
+2026-03-09 16:54:56 [error]: Error: Provider Error - INVALID PROPERTY CODE
+    at exports.getHotelOffers (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:269:13)
+    at async exports.getHotelRooms (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:38:20)
+2026-03-09 16:55:37 [error]: [Amadeus] Unexpected offers error for ALCJB394: Provider Error - INVALID PROPERTY CODE
+2026-03-09 16:55:37 [error]: Error: Provider Error - INVALID PROPERTY CODE
+    at exports.getHotelOffers (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\amadeus.service.js:269:13)
+    at async exports.getHotelRooms (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\hotels.controller.js:38:20)
+2026-03-09 21:53:33 [error]: CastError: Cast to ObjectId failed for value "FALLBACK-STD-001" (type string) at path "_id" for model "Room"
+    at SchemaObjectId.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaType.applySetters (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaType.castForQuery (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1724:17)
+    at cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BookingService.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\booking.service.js:164:18)
+    at async exports.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\booking.controller.js:12:21)
+2026-03-09 21:53:34 [error]: CastError: Cast to ObjectId failed for value "FALLBACK-STD-001" (type string) at path "_id" for model "Room"
+    at SchemaObjectId.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaType.applySetters (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaType.castForQuery (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1724:17)
+    at cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BookingService.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\booking.service.js:164:18)
+    at async exports.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\booking.controller.js:12:21)
+2026-03-09 21:56:31 [error]: CastError: Cast to ObjectId failed for value "FALLBACK-STD-001" (type string) at path "_id" for model "Room"
+    at SchemaObjectId.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaType.applySetters (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaType.castForQuery (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\schemaType.js:1724:17)
+    at cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BookingService.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\booking.service.js:164:18)
+    at async exports.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\booking.controller.js:12:21)

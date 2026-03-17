@@ -1,0 +1,138 @@
+{
+  "_comment": "Sample webhook payloads for testing and documentation.",
+
+  "razorpay": {
+    "payment.captured": {
+      "entity": "event",
+      "account_id": "acc_BFQ7uQEaa6z2iz",
+      "event": "payment.captured",
+      "contains": ["payment"],
+      "payload": {
+        "payment": {
+          "entity": {
+            "id": "pay_29QQoUBi66xm2f",
+            "entity": "payment",
+            "amount": 50000,
+            "currency": "INR",
+            "status": "captured",
+            "order_id": "order_IluGWxBm9U8zJ8",
+            "invoice_id": null,
+            "international": false,
+            "method": "upi",
+            "amount_refunded": 0,
+            "refund_status": null,
+            "captured": true,
+            "description": "Task Manager Premium Plan",
+            "card_id": null,
+            "bank": null,
+            "wallet": null,
+            "vpa": "user@upi",
+            "email": "user@example.com",
+            "contact": "+919876543210",
+            "notes": {
+              "user_id": "42",
+              "description": "Task Manager Premium Plan"
+            },
+            "fee": 590,
+            "tax": 90,
+            "error_code": null,
+            "error_description": null,
+            "created_at": 1606890399
+          }
+        }
+      },
+      "created_at": 1606890399
+    },
+
+    "payment.failed": {
+      "entity": "event",
+      "account_id": "acc_BFQ7uQEaa6z2iz",
+      "event": "payment.failed",
+      "contains": ["payment"],
+      "payload": {
+        "payment": {
+          "entity": {
+            "id": "pay_29QQoUBi66xm2g",
+            "entity": "payment",
+            "amount": 50000,
+            "currency": "INR",
+            "status": "failed",
+            "order_id": "order_IluGWxBm9U8zJ9",
+            "method": "card",
+            "error_code": "BAD_REQUEST_ERROR",
+            "error_description": "Your payment has been declined. Please try again or use a different payment method.",
+            "created_at": 1606890400
+          }
+        }
+      },
+      "created_at": 1606890400
+    },
+
+    "refund.created": {
+      "entity": "event",
+      "account_id": "acc_BFQ7uQEaa6z2iz",
+      "event": "refund.created",
+      "contains": ["refund", "payment"],
+      "payload": {
+        "refund": {
+          "entity": {
+            "id": "rfnd_FP8QHiV938haTz",
+            "entity": "refund",
+            "amount": 50000,
+            "currency": "INR",
+            "payment_id": "pay_29QQoUBi66xm2f",
+            "status": "processed",
+            "created_at": 1610086831
+          }
+        },
+        "payment": {
+          "entity": {
+            "id": "pay_29QQoUBi66xm2f",
+            "amount": 50000,
+            "currency": "INR",
+            "status": "refunded"
+          }
+        }
+      },
+      "created_at": 1610086831
+    }
+  },
+
+  "strike": {
+    "invoice.updated_paid": {
+      "eventType": "invoice.updated",
+      "webhookVersion": "v1",
+      "data": {
+        "entityId": "e8c98a48-3d3c-4547-a786-60d9f7e0e3be",
+        "changes": ["state"],
+        "state": "PAID"
+      },
+      "created": "2024-01-15T10:30:00.000Z",
+      "deliverySuccess": true
+    },
+
+    "invoice.updated_unpaid": {
+      "eventType": "invoice.updated",
+      "webhookVersion": "v1",
+      "data": {
+        "entityId": "e8c98a48-3d3c-4547-a786-60d9f7e0e3be",
+        "changes": ["state"],
+        "state": "UNPAID"
+      },
+      "created": "2024-01-15T10:28:00.000Z",
+      "deliverySuccess": true
+    },
+
+    "invoice.updated_expired": {
+      "eventType": "invoice.updated",
+      "webhookVersion": "v1",
+      "data": {
+        "entityId": "e8c98a48-3d3c-4547-a786-60d9f7e0e3be",
+        "changes": ["state"],
+        "state": "EXPIRED"
+      },
+      "created": "2024-01-15T11:00:00.000Z",
+      "deliverySuccess": true
+    }
+  }
+}
