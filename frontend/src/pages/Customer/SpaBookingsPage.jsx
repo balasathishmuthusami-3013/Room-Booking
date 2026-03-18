@@ -205,7 +205,7 @@ export default function SpaBookingsPage() {
                         <p>📧 Confirmation to <strong>{b.email}</strong></p>
                         <p>⏰ Please arrive <strong>15 minutes early</strong></p>
                         <p>🧴 Complimentary robe, slippers & herbal tea included</p>
-                        <p>📍 Spa Reception: Level B1, Amigo Hotel</p>
+                        <p>📍 Spa Reception: Level B1, Hoto.tours</p>
                       </div>
                     </div>
                   </div>

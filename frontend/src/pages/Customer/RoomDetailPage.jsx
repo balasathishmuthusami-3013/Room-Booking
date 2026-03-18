@@ -401,7 +401,7 @@ export default function RoomDetailPage() {
         {/* Bottom room info overlay */}
         <div className="absolute bottom-7 left-7 text-white">
           <p className="text-amber-300 text-xs font-semibold tracking-[0.32em] uppercase mb-2" style={{ fontFamily:"'Cinzel',serif" }}>
-            Amigo Hotel · Chennai
+            Hoto.tours · Chennai
           </p>
           <h1 style={{ fontFamily:"'Playfair Display',Georgia,serif", fontSize:'clamp(1.9rem,4.5vw,3.2rem)', fontWeight:300, lineHeight:1.1, marginBottom: '0.5rem' }}>
             {room.name}

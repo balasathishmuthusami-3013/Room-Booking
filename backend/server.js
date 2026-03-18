@@ -92,7 +92,7 @@ if (process.env.NODE_ENV !== 'test') {
 // ─── Root Route (so / doesn't show "not found") ───────
 app.get('/', (req, res) => {
   res.json({
-    message: '🏨 Amigo Hotel API is running',
+    message: '🏨 Hoto.tours Hotel API is running',
     status: 'OK',
     version: '1.0.0',
     endpoints: {

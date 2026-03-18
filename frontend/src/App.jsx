@@ -80,7 +80,7 @@ function Preloader({ onDone }) {
       ))}
 
       {/* Logo */}
-      <div className="preloader-logo">Amigo</div>
+      <div className="preloader-logo">Hoto.tours</div>
       <div className="preloader-tagline">Est. 1924 · Chennai's Finest</div>
 
       {/* Thin gold progress bar */}

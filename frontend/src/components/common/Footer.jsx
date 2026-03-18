@@ -73,7 +73,7 @@ function FooterAnimated() {
       <div>
         <div className="flex items-center gap-2 mb-3">
           <span className="footer-logo-icon text-amber-400 text-xl">🏨</span>
-          <span className="text-amber-400 font-bold text-lg" style={{fontFamily:"'Playfair Display', Georgia, serif", fontStyle:'italic'}}>Amigo</span>
+          <span className="text-amber-400 font-bold text-lg" style={{fontFamily:"'Playfair Display', Georgia, serif", fontStyle:'italic'}}>Hoto.tours</span>
         </div>
         <p className="text-sm leading-relaxed mb-4">A century of uncompromising luxury. Where every moment becomes a memory.</p>
         <div className="flex gap-2">
@@ -113,7 +113,7 @@ function FooterAnimated() {
         <h4 className="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Contact</h4>
         <ul className="space-y-2 text-sm">
           <li className="flex items-center gap-2 hover:text-amber-400 transition cursor-default">📞 +91 98765 00000</li>
-          <li className="flex items-center gap-2 hover:text-amber-400 transition cursor-default">✉️ reservations@amigo.com</li>
+          <li className="flex items-center gap-2 hover:text-amber-400 transition cursor-default">✉️ reservations@hoto.tours</li>
           <li className="flex items-center gap-2 hover:text-amber-400 transition cursor-default">📍 Anna Salai, Chennai</li>
         </ul>
       </div>
@@ -132,7 +132,7 @@ function FooterAnimated() {
       </div>
       <div className="footer-divider mb-6"/>
       <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm">
-        <span className="hover:text-amber-400 transition">© {new Date().getFullYear()} Amigo Hotel. All rights reserved.</span>
+        <span className="hover:text-amber-400 transition">© {new Date().getFullYear()} Hoto.tours. All rights reserved.</span>
         <span className="flex gap-4">
           <span className="hover:text-amber-400 transition cursor-pointer">Privacy Policy</span>
           <span className="text-gray-700">·</span>

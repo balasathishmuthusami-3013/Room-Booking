@@ -20,7 +20,7 @@ const TODAY_EVENTS = [
     desc:'Chef Marco teaches his famous truffle risotto. Limited to 12 members.' },
   { time:'8:00 PM – 12:00 AM', title:'🎭 Live Jazz & Gala Dinner', badge:'GALA', badgeColor:'bg-rose-600',
     image:'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600',
-    desc:'5-course dinner with the Amigo Jazz Quartet. Formal attire required.' },
+    desc:'5-course dinner with the Hoto.tours Jazz Quartet. Formal attire required.' },
 ];
 
 const PROGRAMS = [
@@ -158,7 +158,7 @@ export default function LoyaltyPage() {
         <div className="absolute inset-0 opacity-5" style={{backgroundImage:'repeating-linear-gradient(45deg,#C9A96E 0,#C9A96E 1px,transparent 0,transparent 50%)',backgroundSize:'20px 20px'}}/>
         <div className="relative max-w-4xl mx-auto px-4 text-center">
           <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-3">✨ Exclusive Membership</p>
-          <h1 className="text-5xl font-light mb-3" style={{fontFamily:'Georgia,serif'}}>Amigo <em className="text-amber-400">Loyalty</em></h1>
+          <h1 className="text-5xl font-light mb-3" style={{fontFamily:'Georgia,serif'}}>Hoto.tours <em className="text-amber-400">Loyalty</em></h1>
           <p className="text-gray-300 mb-2">Three tiers of privilege — Silver, Gold & Platinum</p>
           <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-2">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
@@ -174,7 +174,7 @@ export default function LoyaltyPage() {
           <div className="text-center mb-8">
             <p className="text-amber-600 text-xs font-bold uppercase tracking-widest mb-2">Live Now</p>
             <h2 className="text-3xl font-bold text-gray-800" style={{fontFamily:'Georgia,serif'}}>Today's Special Events</h2>
-            <p className="text-gray-400 text-sm mt-1">Exclusive for Amigo Loyalty members</p>
+            <p className="text-gray-400 text-sm mt-1">Exclusive for Hoto.tours Loyalty members</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {TODAY_EVENTS.map((ev,i) => (

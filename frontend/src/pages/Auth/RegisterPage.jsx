@@ -35,7 +35,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <span className="text-5xl">🏨</span>
-          <h1 className="text-3xl font-bold text-amber-400 mt-2">Amigo</h1>
+          <h1 className="text-3xl font-bold text-amber-400 mt-2">Hoto.tours</h1>
           <p className="text-gray-400 mt-1">Create your account</p>
         </div>
 

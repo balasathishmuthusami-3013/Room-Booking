@@ -15,7 +15,7 @@ export default function SpaBookingPage() {
   const location = useLocation();
   const { user } = useAuth();
   const treatment = location.state?.treatment || {
-    name:'Amigo Gold Body Wrap', duration:'90 min', price:'₹12,000', amount:12000, category:'Body',
+    name:'Hoto.tours Gold Body Wrap', duration:'90 min', price:'₹12,000', amount:12000, category:'Body',
     desc:'Pure 24K gold-infused oil body treatment for radiant, youthful skin.',
   };
 

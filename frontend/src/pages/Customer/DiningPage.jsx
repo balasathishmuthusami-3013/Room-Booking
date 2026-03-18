@@ -37,7 +37,7 @@ const RESTAURANTS = [
     price: '₹1,200 minimum spend',
     dress: 'Smart Casual',
     menu: [
-      { cat: '🍸 Signature Cocktails', items: ['Amigo Gold Gimlet', 'Delhi Mule', 'Saffron Sour', 'Rooftop Negroni'] },
+      { cat: '🍸 Signature Cocktails', items: ['Hoto.tours Gold Gimlet', 'Delhi Mule', 'Saffron Sour', 'Rooftop Negroni'] },
       { cat: '🧆 Bites', items: ['Crispy Calamari', 'Wagyu Sliders', 'Truffle Fries', 'Cheese & Charcuterie Board'] },
     ],
   },

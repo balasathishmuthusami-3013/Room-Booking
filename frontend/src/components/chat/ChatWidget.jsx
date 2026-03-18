@@ -14,7 +14,7 @@ export default function ChatWidget() {
     {
       id: 1,
       role: 'assistant',
-      content: "Welcome to Amigo Hotel! 🏨 I'm Aria, your AI concierge. How can I assist you today?",
+      content: "Welcome to Hoto.tours! 🏨 I'm Aria, your AI concierge. How can I assist you today?",
     },
   ]);
   const [input, setInput] = useState('');

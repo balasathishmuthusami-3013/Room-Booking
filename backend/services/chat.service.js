@@ -11,7 +11,7 @@ const Room = require('../models/Room');
 const Booking = require('../models/Booking');
 const logger = require('../utils/logger');
 
-const SYSTEM_PROMPT = `You are "Aria", the AI concierge for Amigo Hotel.
+const SYSTEM_PROMPT = `You are "Aria", the AI concierge for Hoto.tours Hotel.
 You are warm, professional, and knowledgeable about the hotel.
 
 Your capabilities:
@@ -62,7 +62,7 @@ All rates are subject to 12% tax and 5% service charge. We occasionally have sea
 • **Within 24 hours**: No refund
 You can cancel anytime from your "My Bookings" page. Refunds process within 5-7 business days.`,
 
-  amenities: () => `Amigo Hotel offers world-class amenities! ✨
+  amenities: () => `Hoto.tours Hotel offers world-class amenities! ✨
 Including: Infinity Pool, Aurum Spa & Wellness Center, Fitness Studio, 7 Restaurants & Bars, Business Center, Concierge Service, 24/7 Room Service, and Valet Parking.
 Ask me about any specific amenity for more details!`,
 
@@ -70,7 +70,7 @@ Ask me about any specific amenity for more details!`,
 I'm connecting you with our guest services team right now. You can also reach us directly at:
 📞 +1 (800) 555-0100 | ✉️ concierge@aurumgrand.com | Available 24/7`,
 
-  default: () => `Welcome to Amigo Hotel! 🏨 I'm Aria, your AI concierge.
+  default: () => `Welcome to Hoto.tours Hotel! 🏨 I'm Aria, your AI concierge.
 I can help you with room availability, pricing, bookings, and amenities.
 What can I assist you with today?`,
 };

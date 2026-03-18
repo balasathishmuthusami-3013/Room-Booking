@@ -3,8 +3,8 @@ import AdminLayout from '../../components/common/AdminLayout';
 import { useAuth } from '../../context/AuthContext';
 import toast from 'react-hot-toast';
 
-const SK = 'amigo_loyalty_v2';
-const HK = 'amigo_loyalty_hist_v2';
+const SK = 'hoto.tours_loyalty_v2';
+const HK = 'hoto.tours_loyalty_hist_v2';
 
 const DEFAULTS = {
   tiers:[

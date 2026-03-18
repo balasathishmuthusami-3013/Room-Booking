@@ -74,7 +74,7 @@ export default function RoomsPage() {
           <div className="rooms-logo-icon text-6xl select-none">🏨</div>
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <span className="text-amber-400 text-xs font-bold tracking-widest uppercase">Amigo · Chennai</span>
+              <span className="text-amber-400 text-xs font-bold tracking-widest uppercase">Hoto.tours · Chennai</span>
               <span className="w-1.5 h-1.5 bg-amber-400 rounded-full animate-pulse"/>
             </div>
             <h1 className="text-4xl font-bold text-white" style={{fontFamily:"'Playfair Display', Georgia, serif"}}>

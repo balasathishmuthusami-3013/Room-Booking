@@ -47,7 +47,7 @@ function MembershipCard({ membership, onClose }) {
             {/* Header row */}
             <div className="flex items-start justify-between mb-6">
               <div>
-                <p className="text-white/60 text-xs tracking-[0.25em] uppercase mb-1">Amigo Hotels</p>
+                <p className="text-white/60 text-xs tracking-[0.25em] uppercase mb-1">Hoto.tourss</p>
                 <p className="text-white font-bold text-xl tracking-wide">{snap.name || 'Membership'}</p>
               </div>
               <span style={{fontSize:'2.5rem',lineHeight:1}}>{snap.icon || '🥈'}</span>
@@ -310,7 +310,7 @@ export default function MembershipPage() {
         <div className="text-center mb-10">
           <p className="text-amber-500 text-xs font-bold tracking-[0.3em] uppercase mb-3" style={{fontFamily:"'Cinzel',serif"}}>✨ Exclusive Privileges</p>
           <h1 className="text-4xl font-light text-gray-900 mb-3" style={{fontFamily:"'Playfair Display',Georgia,serif"}}>
-            Amigo <em className="text-amber-500 italic">Membership</em>
+            Hoto.tours <em className="text-amber-500 italic">Membership</em>
           </h1>
           <p className="text-gray-500 max-w-lg mx-auto">Choose your tier and unlock exclusive free bookings, dining discounts, and premium benefits.</p>
         </div>

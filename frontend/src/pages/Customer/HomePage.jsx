@@ -24,16 +24,16 @@ const TODAY_EVENTS = [
     desc:'Chef Marco teaches his famous truffle risotto. Limited to 12 members. Includes tasting and signed cookbook.' },
   { time:'8:00 PM – 12:00 AM', title:'🎭 Live Jazz & Gala Dinner', badge:'GALA', badgeColor:'bg-rose-600',
     image:'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500',
-    desc:'5-course dinner with the Amigo Jazz Quartet in the Grand Ballroom. Formal attire required.' },
+    desc:'5-course dinner with the Hoto.tours Jazz Quartet in the Grand Ballroom. Formal attire required.' },
 ];
 
 const AMENITIES = [
-  { key:'spa', icon:'🌿', name:'Amigo Spa', desc:'5,000 sqm sanctuary with 22 treatment rooms',
+  { key:'spa', icon:'🌿', name:'Hoto.tours Spa', desc:'5,000 sqm sanctuary with 22 treatment rooms',
     heroImage:'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=900',
     gallery:['https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600','https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600','https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600'],
     highlights:['22 Private Treatment Rooms','25m Indoor Heated Pool','Hammam & Steam Room','Aromatherapy Lounge','Couples Retreat Suites','Ayurvedic Treatments'],
     hours:'6:00 AM – 11:00 PM', tagline:'A sanctuary of total wellbeing',
-    details:[{label:'Signature',value:'Amigo Gold Body Wrap (90 min)'},{label:'Hydrotherapy',value:'Jacuzzi, Cold Plunge, Steam'},{label:'Fitness',value:'Open 24 hours'},{label:'Booking',value:'In-app or at reception'}],
+    details:[{label:'Signature',value:'Hoto.tours Gold Body Wrap (90 min)'},{label:'Hydrotherapy',value:'Jacuzzi, Cold Plunge, Steam'},{label:'Fitness',value:'Open 24 hours'},{label:'Booking',value:'In-app or at reception'}],
     link:'/spa' },
   { key:'dining', icon:'🍽️', name:'Fine Dining', desc:'7 award-winning Michelin-starred restaurants',
     heroImage:'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900',
@@ -137,9 +137,9 @@ function LoyaltyModal({ onClose }) {
       <div className="bg-white rounded-3xl w-full max-w-2xl max-h-[92vh] overflow-y-auto shadow-2xl" onClick={e => e.stopPropagation()}>
         <div className="relative bg-gradient-to-br from-gray-900 via-amber-900 to-gray-900 rounded-t-3xl p-7 text-white">
           <button onClick={onClose} className="absolute top-4 right-4 w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition text-lg">✕</button>
-          <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-1">✨ Amigo Loyalty</p>
+          <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-1">✨ Hoto.tours Loyalty</p>
           <h2 className="text-2xl font-bold mb-0.5">
-            {step==='choose' ? "Today's Events & Programs" : step==='form' ? `Join ${selectedProgram?.name}` : '🎉 Welcome to Amigo Loyalty!'}
+            {step==='choose' ? "Today's Events & Programs" : step==='form' ? `Join ${selectedProgram?.name}` : '🎉 Welcome to Hoto.tours Loyalty!'}
           </h2>
           <p className="text-amber-200 text-sm">{today}</p>
         </div>
@@ -250,7 +250,7 @@ function LoyaltyModal({ onClose }) {
             <div className="py-6 text-center">
               <div className="text-7xl mb-4">🎉</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-2">Welcome to {selectedProgram.name}!</h3>
-              <p className="text-gray-500 mb-5">You're now part of the Amigo family. Enjoy exclusive benefits starting today!</p>
+              <p className="text-gray-500 mb-5">You're now part of the Hoto.tours family. Enjoy exclusive benefits starting today!</p>
               <div className={`bg-gradient-to-r ${selectedProgram.color} text-white rounded-2xl p-5 mb-4 text-left`}>
                 <div className="flex items-center gap-3 mb-3">
                   <span className="text-3xl">{selectedProgram.icon}</span>
@@ -822,7 +822,7 @@ function MembershipSection() {
         <div style={{opacity:visible?1:0,transform:visible?'none':'translateY(32px)',transition:'all .9s cubic-bezier(.16,1,.3,1)'}} className="text-center mb-16">
           <p className="text-amber-400 text-xs font-bold tracking-[0.3em] uppercase mb-3" style={{fontFamily:"'Cinzel',serif"}}>✨ Exclusive Membership</p>
           <h2 className="text-5xl font-light text-white mb-4" style={{fontFamily:"'Playfair Display',Georgia,serif"}}>
-            Amigo <em className="text-amber-400 italic">Memberships</em>
+            Hoto.tours <em className="text-amber-400 italic">Memberships</em>
           </h2>
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mb-5"/>
           <p className="text-gray-400 max-w-xl mx-auto text-lg">Purchase a membership and enjoy free room bookings, exclusive discounts, and premium privileges year-round.</p>
@@ -877,7 +877,7 @@ const TESTIMONIALS = [
   { name: 'Chen Wei', country: '🇨🇳 Shanghai', text: 'The USDT payment option was perfect for our corporate booking. Instant confirmation and the service was flawless.', rating: 5, avatar: 'CW' },
 ];
 
-const REVIEWS_KEY = 'amigo_guest_reviews';
+const REVIEWS_KEY = 'hoto.tours_guest_reviews';
 function getStoredReviews() {
   try { return JSON.parse(localStorage.getItem(REVIEWS_KEY) || '[]'); } catch { return []; }
 }
@@ -978,7 +978,7 @@ function TestimonialsSection() {
               <div>
                 <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Your Review *</label>
                 <textarea value={form.text} onChange={e => setForm({...form, text: e.target.value})}
-                  placeholder="Tell future guests about your stay at Amigo..."
+                  placeholder="Tell future guests about your stay at Hoto.tours..."
                   rows={4} required
                   className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 bg-white resize-none"/>
               </div>
@@ -1443,7 +1443,7 @@ export default function HomePage() {
       <section className="py-24 bg-amber-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 reveal">
-            <p className="text-amber-500 text-xs font-bold tracking-[0.25em] uppercase mb-3">✦ The Amigo Difference ✦</p>
+            <p className="text-amber-500 text-xs font-bold tracking-[0.25em] uppercase mb-3">✦ The Hoto.tours Difference ✦</p>
             <h2 className="text-5xl font-light text-gray-900" style={{fontFamily:"'Playfair Display', Georgia, serif"}}>Why <em className="text-amber-500 italic">Guests Love</em> Us</h2>
             <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mt-4"/>
           </div>
@@ -1542,7 +1542,7 @@ export default function HomePage() {
         <div className="relative max-w-4xl mx-auto px-4 text-center reveal">
           <p className="text-amber-400 text-xs font-bold tracking-[0.25em] uppercase mb-4">✨ Exclusive Benefits ✨</p>
           <h2 className="text-5xl font-light mb-5" style={{fontFamily:"'Playfair Display', Georgia, serif"}}>
-            Amigo <em className="gold-shimmer not-italic">Loyalty</em> Program
+            Hoto.tours <em className="gold-shimmer not-italic">Loyalty</em> Program
           </h2>
           <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mb-6"/>
           <p className="text-gray-300 mb-6 max-w-xl mx-auto text-lg">Silver, Gold &amp; Platinum tiers with exclusive perks, priority upgrades, and today's special events.</p>

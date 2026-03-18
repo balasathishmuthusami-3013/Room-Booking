@@ -162,7 +162,7 @@ export default function AdminLayout({ children, title, subtitle }) {
         <div style={{width:36,height:36,borderRadius:10,flexShrink:0,background:'linear-gradient(135deg,#c9a84c,#7a5c20)',display:'flex',alignItems:'center',justifyContent:'center',boxShadow:'0 4px 14px rgba(201,168,76,.35)',fontSize:17}}>🏨</div>
         {!collapsed && (
           <div style={{overflow:'hidden'}}>
-            <p style={{color:'#c9a84c',fontSize:13.5,fontWeight:700,fontFamily:"'Cormorant Garamond',serif",letterSpacing:'.06em',lineHeight:1.1}}>AMIGO</p>
+            <p style={{color:'#c9a84c',fontSize:13.5,fontWeight:700,fontFamily:"'Cormorant Garamond',serif",letterSpacing:'.06em',lineHeight:1.1}}>Hoto.tours</p>
             <p style={{color:'#2d3748',fontSize:9,letterSpacing:'.18em',textTransform:'uppercase',marginTop:1}}>Admin Console</p>
           </div>
         )}

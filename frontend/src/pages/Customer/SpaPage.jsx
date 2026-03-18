@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 
 const TREATMENTS = [
-  { name:'Amigo Gold Body Wrap', duration:'90 min', price:'₹12,000', amount:12000, category:'Body', desc:'Pure 24K gold-infused oil body treatment for radiant, youthful skin.' },
+  { name:'Hoto.tours Gold Body Wrap', duration:'90 min', price:'₹12,000', amount:12000, category:'Body', desc:'Pure 24K gold-infused oil body treatment for radiant, youthful skin.' },
   { name:'Himalayan Salt Stone Massage', duration:'60 min', price:'₹8,500', amount:8500, category:'Massage', desc:'Warm salt stones melt away tension and detoxify the body deeply.' },
   { name:'Couples Retreat', duration:'120 min', price:'₹22,000', amount:22000, category:'Couples', desc:'Private suite with jacuzzi, champagne, rose petals and dual massage.' },
   { name:'Ayurvedic Abhyanga', duration:'75 min', price:'₹9,000', amount:9000, category:'Ayurvedic', desc:'Traditional four-hand oil massage balancing all three doshas.' },
@@ -75,7 +75,7 @@ export default function SpaPage() {
         <div className="absolute inset-0 bg-black/50"/>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
           <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-2">Total Wellbeing</p>
-          <h1 className="text-5xl font-light mb-2" style={{fontFamily:'Georgia,serif'}}>Amigo <em className="text-amber-400">Spa</em></h1>
+          <h1 className="text-5xl font-light mb-2" style={{fontFamily:'Georgia,serif'}}>Hoto.tours <em className="text-amber-400">Spa</em></h1>
           <p className="text-gray-300 text-sm">5,000 sqm sanctuary · 22 treatment rooms · Open 6AM–11PM</p>
         </div>
       </div>

@@ -93,7 +93,7 @@ export default function Navbar() {
               className="font-bold text-xl text-amber-400 group-hover:text-amber-300 transition-colors duration-200"
               style={{ fontFamily:"'Playfair Display','Cormorant Garamond',Georgia,serif", letterSpacing:'0.06em', fontStyle:'italic' }}
             >
-              Amigo
+              Hoto.tours
             </span>
           </Link>
 
