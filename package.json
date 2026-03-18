@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "firebase": "^12.10.0",
     "multer": "^2.1.1"
   }
 }

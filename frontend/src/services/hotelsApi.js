@@ -8,7 +8,7 @@
  *   import { getHotels, getRooms, bookHotel, confirmDemoPayment } from '../services/hotelsApi';
  */
 
-const BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const BASE = process.env.REACT_APP_API_URL || 'http://room-booking-umcy.onrender.com/api';
 
 const authHeaders = () => {
   const token = localStorage.getItem('token');

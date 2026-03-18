@@ -1,0 +1,20 @@
+# ════════════════════════════════════════════════════════
+#  render.yaml — Render.com Service Configuration
+#  Optional: can use this instead of the dashboard UI
+# ════════════════════════════════════════════════════════
+
+services:
+  - type: web
+    name: hotel-booking-api
+    env: node
+    region: singapore           # Closest to India/Chennai
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      # Add all other secrets in Render Dashboard → Environment

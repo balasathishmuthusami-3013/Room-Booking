@@ -1,0 +1,19 @@
+# ════════════════════════════════════════════════════════
+#  netlify.toml — Netlify Build & Deploy Configuration
+#  Place this file in your frontend/ folder root
+# ════════════════════════════════════════════════════════
+
+[build]
+  command   = "npm run build"
+  publish   = "build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_FLAGS    = "--legacy-peer-deps"
+
+# ── SPA Routing Fix ───────────────────────────────────
+# Without this, direct URL access (e.g. /admin) returns 404
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

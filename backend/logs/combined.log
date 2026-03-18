@@ -4119,3 +4119,1671 @@
 2026-03-17 22:19:37 [info]: ::1 - - [17/Mar/2026:16:49:37 +0000] "GET /favicon.ico HTTP/1.1" 404 40 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
 2026-03-17 23:05:39 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
 2026-03-17 23:05:39 [info]: ✅ MongoDB Connected: localhost
+2026-03-18 10:26:18 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
+2026-03-18 10:26:18 [info]: ✅ MongoDB Connected: localhost
+2026-03-18 10:26:53 [info]: ::1 - - [18/Mar/2026:04:56:53 +0000] "GET /favicon.ico HTTP/1.1" 404 40 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-18 11:13:26 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
+2026-03-18 11:13:26 [info]: ✅ MongoDB Connected: localhost
+2026-03-18 12:44:09 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
+2026-03-18 12:44:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:19 [warn]: [Membership] Seed error: Operation `membershippackages.countDocuments()` buffering timed out after 10000ms
+2026-03-18 12:44:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:24 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:24 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:29 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:29 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:34 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:34 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:39 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:39 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:44 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:44 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:49 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:49 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:54 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:54 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:59 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:44:59 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:44:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:04 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:04 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:09 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:09 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:14 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:24 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:24 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:29 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:29 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:34 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:34 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:39 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:39 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:44 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:44 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:49 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:49 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:54 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:54 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:59 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:45:59 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:45:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:04 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:04 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:09 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:09 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:14 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:24 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:24 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:29 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:29 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:34 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:34 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:39 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:39 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:44 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:44 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:49 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:49 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:54 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:54 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:59 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:46:59 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:46:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:04 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:04 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:09 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:09 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:14 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:50 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:50 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:55 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:47:55 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:47:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:00 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:00 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:05 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:05 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:10 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:10 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:15 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:15 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:20 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:20 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:50 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:50 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:55 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:48:55 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:48:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:00 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:00 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:05 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:05 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:10 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:10 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:15 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:15 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:20 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:20 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:50 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:50 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:55 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:49:55 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:49:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:00 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:00 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:05 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:05 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:10 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:10 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:15 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:15 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:20 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:20 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:50:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:52 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
+2026-03-18 12:50:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:50:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:21 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
+2026-03-18 12:51:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:26 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:51:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:31 [warn]: [Membership] Seed error: Operation `membershippackages.countDocuments()` buffering timed out after 10000ms
+2026-03-18 12:51:31 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:51:31 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:51:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:36 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:51:36 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:51:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:41 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:51:41 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:51:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:46 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:51:46 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:51:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:51 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:51:51 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:51:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:56 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:51:56 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:51:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:01 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:01 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:06 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:06 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:11 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:11 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:16 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:16 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:21 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:21 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:26 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:26 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:31 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:31 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:36 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:36 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:41 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:41 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:46 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:46 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:51 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:51 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:56 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:52:56 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:52:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:01 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:01 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:53:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:53:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:54:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:54:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:55:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:55:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:56:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:56:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:03 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:03 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:08 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:08 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:13 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:13 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:18 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:18 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:23 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:23 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:28 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:28 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:33 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:33 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:38 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:38 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:43 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:43 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:48 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:48 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:53 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:53 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:58 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:57:58 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:57:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:03 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:58:03 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:58:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:08 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:58:08 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:58:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:13 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:58:13 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:58:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:02 [info]: 🏨 Hotel Booking Server running on port 5000 [development]
+2026-03-18 12:59:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:12 [warn]: [Membership] Seed error: Operation `membershippackages.countDocuments()` buffering timed out after 10000ms
+2026-03-18 12:59:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 12:59:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 12:59:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:00:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:00:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:01:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:01:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:43 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:43 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:48 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:48 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:53 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:53 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:58 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:02:58 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:02:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:03 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:03 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:08 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:08 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:13 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:13 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:18 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:18 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:23 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:23 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:28 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:28 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:33 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:33 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:38 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:38 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:43 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:43 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:48 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:48 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:53 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:53 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:58 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:03:58 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:03:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:03 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:03 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:08 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:08 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:13 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:13 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:18 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:18 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:23 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:23 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:28 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:28 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:33 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:33 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:38 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:38 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:43 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:43 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:48 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:48 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:53 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:53 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:58 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:04:58 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:04:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:03 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:03 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:08 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:08 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:13 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:13 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:18 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:18 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:23 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:23 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:28 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:28 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:33 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:33 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:38 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:38 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:43 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:43 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:48 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:48 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:53 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:53 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:58 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:05:58 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:05:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:03 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:03 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:08 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:08 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:14 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:24 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:24 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:29 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:29 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:34 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:34 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:39 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:39 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:44 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:44 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:49 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:49 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:54 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:54 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:59 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:06:59 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:06:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:04 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:04 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:09 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:09 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:14 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:24 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:24 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:29 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:29 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:34 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:34 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:39 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:39 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:44 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:44 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:49 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:49 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:54 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:54 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:59 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:07:59 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:07:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:04 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:04 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:09 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:09 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:14 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:24 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:24 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:29 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:29 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:34 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:34 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:39 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:39 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:44 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:44 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:49 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:49 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:54 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:54 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:59 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:08:59 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:08:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:04 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:04 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:09 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:09 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:14 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:14 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:19 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:19 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:24 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:24 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:29 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:29 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:34 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:34 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:39 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:39 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:44 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:44 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:49 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:49 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:54 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:54 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:59 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:09:59 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:09:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:04 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:04 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:09 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:09 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:15 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:15 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:20 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:20 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:50 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:50 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:55 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:10:55 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:10:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:00 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:00 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:05 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:05 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:10 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:10 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:15 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:15 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:20 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:20 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:50 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:50 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:55 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:11:55 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:11:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:00 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:00 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:05 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:05 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:10 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:10 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:15 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:15 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:20 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:20 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:50 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:50 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:55 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:12:55 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:12:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:00 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:00 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:05 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:05 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:10 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:10 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:15 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:15 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:20 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:20 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:25 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:25 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:30 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:30 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:35 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:35 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:40 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:40 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:45 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:45 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:50 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:50 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:55 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:13:55 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:13:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:00 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:00 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:05 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:05 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:11 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:11 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:16 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:16 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:21 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:21 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:26 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:26 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:31 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:31 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:36 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:36 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:41 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:41 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:46 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:46 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:51 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:51 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:56 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:14:56 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:14:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:01 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:01 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:06 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:06 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:11 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:11 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:16 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:16 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:21 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:21 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:26 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:26 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:31 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:31 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:36 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:36 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:41 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:41 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:46 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:46 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:51 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:51 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:56 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:15:56 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:15:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:01 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:01 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:06 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:06 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:11 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:11 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:16 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:16 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:21 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:21 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:26 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:26 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:31 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:31 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:36 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:36 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:41 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:41 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:46 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:46 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:51 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:51 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:56 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:16:56 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:16:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:01 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:01 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:06 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:06 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:11 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:11 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:16 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:16 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:21 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:21 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:26 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:26 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:31 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:31 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:36 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:36 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:41 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:41 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:46 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:46 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:51 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:51 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:17:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:17:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:52 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:52 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:57 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:18:57 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:18:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:02 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:02 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:07 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:07 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:12 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:12 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:17 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:17 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:22 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:22 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:27 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:27 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:32 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:32 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:37 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:37 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:42 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:42 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:47 [info]: ✅ MongoDB Connected: undefined
+2026-03-18 13:19:47 [warn]: MongoDB disconnected. Attempting reconnect...
+2026-03-18 13:19:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:54 [info]: 🏨 Server running on port 5000 [development]
+2026-03-18 13:19:54 [info]: ✅ MongoDB connected: localhost
+2026-03-18 13:21:56 [info]: 🏨 Server running on port 5000 [development]
+2026-03-18 13:21:56 [info]: ✅ MongoDB connected: localhost
+2026-03-18 14:19:10 [info]: 🏨 Server running on port 5000 [development]
+2026-03-18 14:19:10 [info]: ✅ MongoDB connected: localhost
+2026-03-18 14:26:16 [info]: 🏨 Server running on port 5000 [development]
+2026-03-18 14:26:16 [info]: ✅ MongoDB connected: localhost
+2026-03-18 14:26:36 [info]: 127.0.0.1 - - [18/Mar/2026:08:56:36 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-18 14:26:36 [info]: 127.0.0.1 - - [18/Mar/2026:08:56:36 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-18 14:26:53 [info]: [Amadeus] Client initialised successfully
+2026-03-18 14:26:53 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-18 14:26:55 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-18 14:26:55 [info]: 127.0.0.1 - - [18/Mar/2026:08:56:55 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 200 5492 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-18 14:36:51 [info]: 🏨 Server running on port 5000 [development]
+2026-03-18 14:36:51 [info]: ✅ MongoDB connected: localhost

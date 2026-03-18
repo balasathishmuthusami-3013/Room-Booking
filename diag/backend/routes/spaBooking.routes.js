@@ -1,0 +1,11 @@
+const router = require('express').Router();
+const ctrl   = require('../controllers/spaBooking.controller');
+const { protect, authorize } = require('../middleware/auth');
+router.use(protect);
+router.post('/',                               ctrl.create);
+router.get('/my',                              ctrl.getMy);
+router.get('/',          authorize('admin'),   ctrl.getAll);
+router.patch('/:id/cancel',                    ctrl.cancel);
+router.patch('/:id/attend',                    ctrl.requestAttend);
+router.patch('/:id/approve-attend', authorize('admin'), ctrl.approveAttend);
+module.exports = router;

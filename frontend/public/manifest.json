@@ -1,0 +1,9 @@
+{
+  "short_name": "Amigo Hotel",
+  "name": "Amigo Hotel Booking",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#F59E0B",
+  "background_color": "#ffffff"
+}

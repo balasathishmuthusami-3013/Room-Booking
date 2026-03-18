@@ -240,3 +240,827 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
     at async BookingService.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\services\booking.service.js:164:18)
     at async exports.createBooking (C:\Users\balas\Downloads\hotel-booking-app\hotel-booking\backend\controllers\booking.controller.js:12:21)
+2026-03-18 12:44:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:44:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:45:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:46:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:47:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:48:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:49:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:50:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:51:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:52:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:53:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:54:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:55:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:56:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:57:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:58:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 12:59:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:00:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:01:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:02:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:03:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:04:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:13 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:13 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:18 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:18 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:23 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:23 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:28 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:28 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:33 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:33 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:38 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:38 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:43 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:43 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:48 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:48 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:53 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:53 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:58 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:05:58 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:03 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:03 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:08 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:08 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:06:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:07:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:08:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:14 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:14 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:19 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:19 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:24 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:24 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:29 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:29 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:34 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:34 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:39 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:39 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:44 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:44 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:49 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:49 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:54 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:54 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:59 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:09:59 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:04 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:04 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:09 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:09 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:10:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:11:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:12:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:10 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:10 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:15 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:15 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:20 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:20 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:25 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:25 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:30 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:30 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:35 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:35 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:40 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:40 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:45 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:45 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:50 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:50 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:55 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:13:55 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:00 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:00 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:05 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:05 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:14:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:15:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:56 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:16:56 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:01 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:01 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:06 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:06 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:11 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:11 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:16 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:16 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:21 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:21 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:26 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:26 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:31 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:31 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:36 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:36 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:41 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:41 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:46 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:46 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:51 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:51 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:17:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:52 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:52 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:57 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:18:57 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:02 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:02 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:07 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:07 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:12 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:12 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:17 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:17 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:22 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:22 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:27 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:27 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:32 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:32 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:37 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:37 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:42 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:42 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:47 [error]: ❌ MongoDB Connection Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net
+2026-03-18 13:19:47 [error]: MongoDB error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.fjikz2v.mongodb.net

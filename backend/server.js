@@ -1,109 +1,132 @@
 /**
- * server.js — Application Entry Point
- * Initializes Express server, middleware, routes, and DB connection
+ * server.js — Production Ready for Render + Netlify + MongoDB Atlas
  */
 
 require('dotenv').config();
-const express = require('express');
-const helmet = require('helmet');
-const cors = require('cors');
-const morgan = require('morgan');
-const rateLimit = require('express-rate-limit');
+const express    = require('express');
+const helmet     = require('helmet');
+const cors       = require('cors');
+const morgan     = require('morgan');
+const rateLimit  = require('express-rate-limit');
 
-const connectDB = require('./config/database');
-const logger = require('./utils/logger');
-const errorHandler = require('./middleware/errorHandler');
+const connectDB      = require('./config/database');
+const logger         = require('./utils/logger');
+const errorHandler   = require('./middleware/errorHandler');
 
-// ─── Route Imports ────────────────────────────────────
-const authRoutes   = require('./routes/auth.routes');
-const roomRoutes   = require('./routes/room.routes');
-const bookingRoutes = require('./routes/booking.routes');
-const paymentRoutes = require('./routes/payment.routes');
-const chatRoutes   = require('./routes/chat.routes');
-const adminRoutes  = require('./routes/admin.routes');
-const userRoutes   = require('./routes/user.routes');
-const hotelRoutes        = require('./routes/hotels.routes');
-const membershipRoutes   = require('./routes/membership.routes');
-const cityHotelRoutes    = require('./routes/cityHotel.routes');
-const spaBookingRoutes   = require('./routes/spaBooking.routes');
+const authRoutes       = require('./routes/auth.routes');
+const roomRoutes       = require('./routes/room.routes');
+const bookingRoutes    = require('./routes/booking.routes');
+const paymentRoutes    = require('./routes/payment.routes');
+const chatRoutes       = require('./routes/chat.routes');
+const adminRoutes      = require('./routes/admin.routes');
+const userRoutes       = require('./routes/user.routes');
+const hotelRoutes      = require('./routes/hotels.routes');
+const membershipRoutes = require('./routes/membership.routes');
+const cityHotelRoutes  = require('./routes/cityHotel.routes');
+const spaBookingRoutes = require('./routes/spaBooking.routes');
 
 const app = express();
 
-// ─── Database Connection ──────────────────────────────
+// ─── Database ─────────────────────────────────────────
 connectDB();
 
-// ─── Security Middleware ──────────────────────────────
+// ─── CORS ─────────────────────────────────────────────
+const ALLOWED_ORIGINS = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  process.env.CLIENT_URL,
+  process.env.CLIENT_URL_ALT,
+].filter(Boolean);
+
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin) return callback(null, true);
+    if (ALLOWED_ORIGINS.includes(origin)) return callback(null, true);
+    if (/^https:\/\/[a-z0-9-]+\.netlify\.app$/.test(origin)) return callback(null, true);
+    logger.warn(`CORS blocked: ${origin}`);
+    callback(new Error(`CORS blocked: ${origin}`));
+  },
+  credentials: true,
+  methods:     ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
+
+app.options('*', cors());
+
+// ─── Security ─────────────────────────────────────────
 app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", 'js.stripe.com'],
-      frameSrc: ['js.stripe.com'],
+      scriptSrc:  ["'self'", 'js.stripe.com'],
+      frameSrc:   ['js.stripe.com'],
     },
   },
+  crossOriginResourcePolicy: { policy: 'cross-origin' },
 }));
 
-app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:3000',
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-}));
-
-// ─── Rate Limiting ────────────────────────────────────
-const globalLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 200,
-  message: { error: 'Too many requests, please try again later.' },
-});
-
-const authLimiter = rateLimit({
+// ─── Rate Limiting ─────────────────────────────────────
+app.use(rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 20, // Stricter limit for auth endpoints
-  message: { error: 'Too many authentication attempts.' },
-});
+  max: 300,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many requests, please try again later.' },
+}));
 
-app.use(globalLimiter);
-
-// Serve uploaded images statically
+// ─── Static Uploads ───────────────────────────────────
 app.use('/uploads', express.static(require('path').join(__dirname, 'uploads')));
 
 // ─── Body Parsing ─────────────────────────────────────
-// Stripe webhooks need raw body — must be BEFORE express.json()
 app.use('/api/payments/stripe/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
-// ─── Logging ─────────────────────────────────────────
+// ─── Logging ──────────────────────────────────────────
 if (process.env.NODE_ENV !== 'test') {
   app.use(morgan('combined', {
     stream: { write: (msg) => logger.info(msg.trim()) },
   }));
 }
 
+// ─── Root Route (so / doesn't show "not found") ───────
+app.get('/', (req, res) => {
+  res.json({
+    message: '🏨 Amigo Hotel API is running',
+    status: 'OK',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      api:    '/api',
+    },
+  });
+});
+
 // ─── Health Check ─────────────────────────────────────
 app.get('/health', (req, res) => {
   res.json({
-    status: 'OK',
+    status:    'OK',
     timestamp: new Date().toISOString(),
-    env: process.env.NODE_ENV,
+    env:       process.env.NODE_ENV,
+    db:        'connected',
   });
 });
 
 // ─── API Routes ───────────────────────────────────────
-app.use('/api/auth', authLimiter, authRoutes);
-app.use('/api/rooms', roomRoutes);
-app.use('/api/bookings', bookingRoutes);
-app.use('/api/payments', paymentRoutes);
-app.use('/api/chat', chatRoutes);
-app.use('/api/admin', adminRoutes);
-app.use('/api/users', userRoutes);
-app.use('/api/hotels', hotelRoutes);
-app.use('/api/memberships', membershipRoutes);
-app.use('/api/cities', cityHotelRoutes);
+const authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 20 });
+app.use('/api/auth',         authLimiter, authRoutes);
+app.use('/api/rooms',        roomRoutes);
+app.use('/api/bookings',     bookingRoutes);
+app.use('/api/payments',     paymentRoutes);
+app.use('/api/chat',         chatRoutes);
+app.use('/api/admin',        adminRoutes);
+app.use('/api/users',        userRoutes);
+app.use('/api/hotels',       hotelRoutes);
+app.use('/api/memberships',  membershipRoutes);
+app.use('/api/cities',       cityHotelRoutes);
 app.use('/api/spa-bookings', spaBookingRoutes);
 
-// ─── 404 Handler ─────────────────────────────────────
+// ─── 404 ──────────────────────────────────────────────
 app.use('*', (req, res) => {
   res.status(404).json({ error: `Route ${req.originalUrl} not found` });
 });
@@ -111,20 +134,17 @@ app.use('*', (req, res) => {
 // ─── Global Error Handler ─────────────────────────────
 app.use(errorHandler);
 
-// ─── Start Server ─────────────────────────────────────
+// ─── Start ────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
-const server = app.listen(PORT, () => {
-  logger.info(`🏨 Hotel Booking Server running on port ${PORT} [${process.env.NODE_ENV}]`);
+const server = app.listen(PORT, '0.0.0.0', () => {
+  logger.info(`🏨 Server running on port ${PORT} [${process.env.NODE_ENV}]`);
 });
 
-// Graceful shutdown
 process.on('SIGTERM', () => {
-  logger.info('SIGTERM received, shutting down gracefully');
   server.close(() => process.exit(0));
 });
-
 process.on('unhandledRejection', (err) => {
-  logger.error('Unhandled Promise Rejection:', err);
+  logger.error('Unhandled Rejection:', err);
   server.close(() => process.exit(1));
 });
 
