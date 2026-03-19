@@ -409,7 +409,7 @@ export default function App() {
       <ClickBurst />
       <ImagePopout />
 
-      <BrowserRouter>
+      <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <AuthProvider>
           <Toaster position="top-right" toastOptions={{ duration: 3000 }} />
           <ScrollReveal />

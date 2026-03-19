@@ -1312,32 +1312,37 @@ export default function HomePage() {
             <span className="badge-pill bg-white/10 backdrop-blur border border-white/20 text-white text-xs px-3 py-1.5 rounded-full font-semibold cursor-default">₿ Crypto Accepted</span>
             <span className="badge-pill bg-white/10 backdrop-blur border border-white/20 text-white text-xs px-3 py-1.5 rounded-full font-semibold cursor-default">🔒 100% Secure</span>
           </div>
-          <form onSubmit={handleSearch} className="hero-form bg-white/95 backdrop-blur rounded-2xl shadow-2xl p-6 w-full max-w-2xl border border-white/50">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
-              <div>
-                <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Check-In</label>
-                <input type="date" value={search.checkIn} min={new Date().toISOString().split('T')[0]}
-                  onChange={e => setSearch({...search,checkIn:e.target.value})}
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all focus:scale-[1.02]"/>
+          {/* ── Booking Form ── */}
+          <div className="hero-form w-full max-w-2xl">
+            <div className="bg-white/95 backdrop-blur rounded-2xl shadow-2xl border border-white/50 px-5 py-5">
+              <div className="grid grid-cols-3 gap-3 mb-3">
+                <div>
+                  <label className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1">Check-In</label>
+                  <input type="date" value={search.checkIn} min={new Date().toISOString().split('T')[0]}
+                    onChange={e => setSearch({...search,checkIn:e.target.value})}
+                    className="w-full border border-gray-200 rounded-lg px-2 py-2 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all"/>
+                </div>
+                <div>
+                  <label className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1">Check-Out</label>
+                  <input type="date" value={search.checkOut} min={search.checkIn||new Date().toISOString().split('T')[0]}
+                    onChange={e => setSearch({...search,checkOut:e.target.value})}
+                    className="w-full border border-gray-200 rounded-lg px-2 py-2 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all"/>
+                </div>
+                <div>
+                  <label className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1">Guests</label>
+                  <select value={search.adults} onChange={e => setSearch({...search,adults:e.target.value})}
+                    className="w-full border border-gray-200 rounded-lg px-2 py-2 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all">
+                    {[1,2,3,4].map(n=><option key={n} value={n}>{n} Adult{n>1?'s':''}</option>)}
+                  </select>
+                </div>
               </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Check-Out</label>
-                <input type="date" value={search.checkOut} min={search.checkIn||new Date().toISOString().split('T')[0]}
-                  onChange={e => setSearch({...search,checkOut:e.target.value})}
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all focus:scale-[1.02]"/>
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Guests</label>
-                <select value={search.adults} onChange={e => setSearch({...search,adults:e.target.value})}
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all focus:scale-[1.02]">
-                  {[1,2,3,4].map(n=><option key={n} value={n}>{n} Adult{n>1?'s':''}</option>)}
-                </select>
-              </div>
+              <button onClick={handleSearch}
+                className="w-full bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-2.5 rounded-lg transition"
+                style={{fontSize:14}}>
+                Search Available Rooms →
+              </button>
             </div>
-            <button type="submit" className="w-full bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 rounded-lg btn-magnetic btn-glow btn-elastic relative overflow-hidden">
-              Search Available Rooms →
-            </button>
-          </form>
+          </div>
         </div>
       </div>
 

@@ -13,7 +13,7 @@ router.get('/:cityId/hotels',           ctrl.getHotelsByCity);
 router.post('/',                        protect, authorize('admin'), ctrl.createCity);
 router.put('/:id',                      protect, authorize('admin'), ctrl.updateCity);
 router.delete('/:id',                   protect, authorize('admin'), ctrl.deleteCity);
-router.get('/hotels/all',               protect, authorize('admin'), ctrl.getAllHotels);
+router.get('/hotels/all',               ctrl.getAllHotels);  // Public — used by SmartSearch
 router.post('/hotels',                  protect, authorize('admin'), ctrl.createHotel);
 router.put('/hotels/:id',               protect, authorize('admin'), ctrl.updateHotel);
 router.delete('/hotels/:id',            protect, authorize('admin'), ctrl.deleteHotel);

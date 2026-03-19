@@ -5,12 +5,13 @@
  */
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { hotelAPI, bookingAPI } from '../../services/api';
 import { useAuth }   from '../../context/AuthContext';
 import { formatINR } from '../../utils/currency';
 import PaymentGateway from '../../components/payment/PaymentGateway';
 import toast from 'react-hot-toast';
+import SmartSearch from '../../components/common/SmartSearch';
 
 /* ─── City data ─────────────────────────────────────────── */
 const TN_CITIES = [
@@ -813,6 +814,26 @@ export default function HotelSearchPage() {
   const [bookingRoom,    setBookingRoom]    = useState(null);
   const [bookingCheckIn, setBookingCheckIn] = useState(todayStr);
   const [bookingCheckOut,setBookingCheckOut]= useState(tomorrowStr);
+  const [hotelFilter,   setHotelFilter]    = useState('');  // live hotel text filter
+
+  // Read URL search params (from SmartSearch navigation)
+  const location = useLocation();
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const cityCode = params.get('city');
+    const cityName = params.get('cityName');
+    const hotelParam = params.get('hotel');
+    if (cityCode) {
+      const city = TN_CITIES.find(c => c.code === cityCode);
+      if (city) {
+        setSelectedCity(city);
+        setStep('hotels');
+        fetchHotels(cityCode);
+        window.scrollTo({top:0,behavior:'smooth'});
+      }
+    }
+  // eslint-disable-next-line
+  }, []);
 
   // Hero carousel
   useEffect(()=>{ const t=setInterval(()=>setHeroIdx(i=>(i+1)%TN_CITIES.length),4000); return()=>clearInterval(t); },[]);
@@ -837,7 +858,7 @@ export default function HotelSearchPage() {
     finally { setLoadingRooms(false); }
   },[checkIn,checkOut,adults]);
 
-  const handleCitySelect = (city) => { setSelectedCity(city); setStep('hotels'); fetchHotels(city.code); window.scrollTo({top:0,behavior:'smooth'}); };
+  const handleCitySelect = (city) => { setSelectedCity(city); setStep('hotels'); setHotelFilter(''); fetchHotels(city.code); window.scrollTo({top:0,behavior:'smooth'}); };
   const handleHotelSelect = (hotel) => { setSelectedHotel(hotel); setStep('rooms'); fetchRooms(hotel.hotelId); window.scrollTo({top:0,behavior:'smooth'}); };
   const handleRoomSelect  = (room)  => { setSelectedRoom(room); setStep('roomDetail'); window.scrollTo({top:0,behavior:'smooth'}); };
   const handleBookRoom = (room, ci, co) => {
@@ -906,24 +927,47 @@ export default function HotelSearchPage() {
       `}</style>
 
       {/* ═══ HERO HEADER ═══ */}
-      <div className="relative overflow-hidden" style={{height:step==='cities'?'520px':'200px',transition:'height .6s ease'}}>
+      <div className="relative" style={{height:step==='cities'?'340px':'180px',transition:'height .5s ease',overflow:step==='cities'?'visible':'hidden'}}>
         {TN_CITIES.map((c,i)=>(
           <div key={c.code} className="absolute inset-0 transition-opacity duration-1000" style={{opacity:heroIdx===i?1:0}}>
-            <img src={c.image} alt={c.name} className="w-full h-full object-cover" style={{filter:'brightness(.35)'}}/>
+            <img src={c.image} alt={c.name} className="w-full h-full object-cover" style={{filter:'brightness(.32)'}}/>
           </div>
         ))}
-        <div className="absolute inset-0" style={{background:'linear-gradient(to bottom,rgba(8,12,20,.3) 0%,rgba(8,12,20,.7) 70%,#080c14 100%)'}}/>
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
-          <p className="text-xs font-semibold tracking-[.3em] uppercase mb-3" style={{color:'rgba(201,169,110,.8)'}}>✦ Real-Time via Amadeus API ✦</p>
-          <h1 style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:step==='cities'?'clamp(2.5rem,6vw,4.5rem)':'clamp(1.8rem,4vw,2.8rem)',fontWeight:600,color:'#fff',lineHeight:1.1,transition:'font-size .4s ease'}}>
+        <div className="absolute inset-0" style={{background:'linear-gradient(to bottom,rgba(8,12,20,.2) 0%,rgba(8,12,20,.65) 60%,#080c14 100%)'}}/>
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center" style={{gap:0}}>
+          {/* Tag line */}
+          <p style={{fontSize:10,fontWeight:700,letterSpacing:'.28em',textTransform:'uppercase',color:'rgba(201,169,110,.75)',marginBottom:8}}>
+            ✦ Real-Time via Amadeus API ✦
+          </p>
+          {/* Heading */}
+          <h1 style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:step==='cities'?'clamp(2rem,5vw,3.5rem)':'clamp(1.5rem,3.5vw,2.2rem)',fontWeight:600,color:'#fff',lineHeight:1.1,transition:'font-size .4s ease',marginBottom:step==='cities'?12:0}}>
             {step==='cities'?<>Hotels in <span className="gold-text">Tamil Nadu</span></>:
              step==='hotels'?<>{selectedCity?.name} <span className="gold-text">Hotels</span></>:
              step==='rooms' ?<span className="gold-text">{selectedHotel?.name}</span>:
              step==='roomDetail'?<span className="gold-text">{selectedRoom?.roomName||'Room Details'}</span>:
              <>Confirm <span className="gold-text">Booking</span></>}
           </h1>
-          {step==='cities'&&<p className="mt-3 text-gray-300 text-sm max-w-lg" style={{fontWeight:300}}>Discover world-class hotels across Chennai, Coimbatore, Madurai, Trichy & Salem</p>}
-          <div className="flex items-center gap-2 mt-5">
+          {/* Search bar — ONLY on cities step, embedded in hero */}
+          {step==='cities'&&(
+            <div style={{width:'100%',maxWidth:480,marginTop:4,position:'relative',zIndex:1000}}>
+              <SmartSearch
+                placeholder="Search hotels or cities... e.g. Chennai, Grand Palace"
+                dark={true}
+                onSelect={(item) => {
+                  if (item.type === 'city') {
+                    const city = TN_CITIES.find(c => c.code === item.data.code || c.name === item.label);
+                    if (city) handleCitySelect(city);
+                  } else if (item.type === 'hotel') {
+                    const cityCode = item.data.cityCode || item.data.cityId || 'MAA';
+                    const city = TN_CITIES.find(c => c.code === cityCode);
+                    if (city) { setHotelFilter(item.label); handleCitySelect(city); }
+                  }
+                }}
+              />
+            </div>
+          )}
+          {/* Step dots */}
+          <div style={{display:'flex',alignItems:'center',gap:6,marginTop:step==='cities'?10:8}}>
             {['cities','hotels','rooms','roomDetail','booking'].map(s=>(
               <div key={s} className={`step-dot ${step===s?'active':''}`}/>
             ))}
@@ -970,7 +1014,7 @@ export default function HotelSearchPage() {
 
       {/* Cities / Hotels / Rooms use the dark layout */}
       {(step==='cities'||step==='hotels'||step==='rooms')&&(
-        <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="max-w-7xl mx-auto px-4 py-5">
 
           {/* Back button */}
           {step!=='cities'&&(
@@ -982,7 +1026,7 @@ export default function HotelSearchPage() {
           {/* ── STEP 1: Cities ── */}
           {step==='cities'&&(
             <div className="page-enter">
-              <h2 className="text-center mb-8" style={{color:'rgba(255,255,255,.5)',fontSize:13,letterSpacing:'.2em',textTransform:'uppercase'}}>Choose Your Destination</h2>
+              <h2 className="text-center mb-6" style={{color:'rgba(255,255,255,.4)',fontSize:12,letterSpacing:'.2em',textTransform:'uppercase'}}>Choose Your Destination</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
                 {TN_CITIES.map((city,i)=>(
                   <div key={city.code} onClick={()=>handleCitySelect(city)} className="city-card"
@@ -1035,12 +1079,37 @@ export default function HotelSearchPage() {
                 <div style={{color:'rgba(255,255,255,.3)',fontSize:12,paddingBottom:10}}>{nights} night{nights>1?'s':''}</div>
               </div>
 
-              <div className="flex items-center justify-between mb-5">
-                <div>
-                  <h2 className="text-white text-xl font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>{selectedCity?.name}</h2>
-                  {!loadingHotels&&<p style={{color:'var(--gold)',fontSize:12,marginTop:2}}>{hotels.length} properties found</p>}
+              {/* Live hotel filter bar */}
+              <div className="mb-6 flex flex-wrap gap-3 items-center">
+                <div className="relative flex-1 min-w-60">
+                  <span style={{position:'absolute',left:12,top:'50%',transform:'translateY(-50%)',fontSize:15,color:'rgba(255,255,255,0.35)',pointerEvents:'none'}}>🔍</span>
+                  <input
+                    type="text"
+                    value={hotelFilter}
+                    onChange={e => setHotelFilter(e.target.value)}
+                    placeholder={`Filter hotels in ${selectedCity?.name}...`}
+                    style={{background:'rgba(255,255,255,0.06)',border:'1px solid rgba(255,255,255,0.12)',color:'#fff',borderRadius:12,padding:'10px 36px 10px 38px',fontSize:13,outline:'none',width:'100%',transition:'border-color .2s'}}
+                    onFocus={e=>{e.target.style.borderColor='#C9A96E';e.target.style.boxShadow='0 0 0 3px rgba(201,169,110,0.12)';}}
+                    onBlur={e=>{e.target.style.borderColor='rgba(255,255,255,0.12)';e.target.style.boxShadow='none';}}
+                  />
+                  {hotelFilter && (
+                    <button onClick={()=>setHotelFilter('')}
+                      style={{position:'absolute',right:10,top:'50%',transform:'translateY(-50%)',background:'none',border:'none',cursor:'pointer',color:'rgba(255,255,255,0.4)',fontSize:14}}>✕</button>
+                  )}
                 </div>
-                <div className="text-xs px-3 py-1.5 rounded-full" style={{background:'rgba(201,169,110,.1)',color:'var(--gold)',border:'1px solid rgba(201,169,110,.2)'}}>📡 Live Amadeus Data</div>
+                <div className="flex items-center justify-between flex-wrap gap-2">
+                  <div>
+                    <span className="text-white text-base font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>{selectedCity?.name}</span>
+                    {!loadingHotels && (
+                      <span style={{color:'var(--gold)',fontSize:12,marginLeft:8}}>
+                        {hotelFilter
+                          ? `${hotels.filter(h=>(h.name||'').toLowerCase().includes(hotelFilter.toLowerCase())).length} matching`
+                          : `${hotels.length} properties`}
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-xs px-3 py-1.5 rounded-full" style={{background:'rgba(201,169,110,.1)',color:'var(--gold)',border:'1px solid rgba(201,169,110,.2)'}}>📡 Live Amadeus Data</div>
+                </div>
               </div>
 
               {loadingHotels&&(
@@ -1057,8 +1126,17 @@ export default function HotelSearchPage() {
                 <div className="text-center py-20"><div className="float-anim text-6xl mb-4">🏨</div><p className="text-gray-400">No hotels found. Try a different city.</p></div>
               )}
 
+              {/* No filter results message */}
+              {!loadingHotels && hotelFilter && hotels.filter(h=>(h.name||'').toLowerCase().includes(hotelFilter.toLowerCase())).length === 0 && (
+                <div className="text-center py-12">
+                  <div style={{fontSize:48,marginBottom:12}}>🏨</div>
+                  <p style={{color:'rgba(255,255,255,0.5)',fontSize:14}}>No hotels matching "{hotelFilter}"</p>
+                  <button onClick={()=>setHotelFilter('')} style={{marginTop:10,color:'var(--gold)',fontSize:13,background:'none',border:'1px solid rgba(201,169,110,0.3)',padding:'6px 16px',borderRadius:100,cursor:'pointer'}}>Clear filter</button>
+                </div>
+              )}
+
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                {hotels.map((hotel,i)=>{
+                {(hotelFilter ? hotels.filter(h=>(h.name||'').toLowerCase().includes(hotelFilter.toLowerCase())) : hotels).map((hotel,i)=>{
                   const img=HOTEL_IMAGES[i%HOTEL_IMAGES.length];
                   return (
                     <div key={hotel.hotelId} onClick={()=>handleHotelSelect(hotel)} className="hotel-card scale-in" style={{animationDelay:`${i*.06}s`}}>

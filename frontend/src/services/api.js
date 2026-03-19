@@ -79,9 +79,10 @@ api.interceptors.response.use(
       }
     }
 
-    // Show error toast for non-401 errors
+    // Show error toast — skip 401 (handled above) and 403 (auth-gated public calls)
     const message = error.response?.data?.message || 'Something went wrong.';
-    if (error.response?.status !== 401) {
+    const skip = [401, 403];
+    if (!skip.includes(error.response?.status)) {
       toast.error(message);
     }
 

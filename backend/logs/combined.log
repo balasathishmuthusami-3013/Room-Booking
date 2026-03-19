@@ -5787,3 +5787,710 @@
 2026-03-18 14:26:55 [info]: 127.0.0.1 - - [18/Mar/2026:08:56:55 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 200 5492 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
 2026-03-18 14:36:51 [info]: 🏨 Server running on port 5000 [development]
 2026-03-18 14:36:51 [info]: ✅ MongoDB connected: localhost
+2026-03-19 14:31:42 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 14:31:42 [info]: ✅ MongoDB connected: localhost
+2026-03-19 14:34:32 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 14:34:32 [info]: ✅ MongoDB connected: localhost
+2026-03-19 14:34:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:35 +0000] "GET /api/cities/hotels/all HTTP/1.1" 401 2464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:35 +0000] "GET /api/cities/hotels/all HTTP/1.1" 401 2464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:35 +0000] "GET /api/cities/hotels/all HTTP/1.1" 401 2464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:35 [info]: [Amadeus] Client initialised successfully
+2026-03-19 14:34:35 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:34:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:35 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:35 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:34:35 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:34:35 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:34:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:35 +0000] "GET /api/cities/hotels/all HTTP/1.1" 401 2464 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:35 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:34:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:35 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:36 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:36 +0000] "GET /api/hotels?city=SXV HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:36 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:34:36 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:36 +0000] "GET /api/hotels?city=SXV HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:36 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:36 +0000] "GET /api/hotels?city=MAA HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:36 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:36 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:36 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:36 +0000] "GET /api/hotels?city=CJB HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:36 [info]: 127.0.0.1 - - [19/Mar/2026:09:04:36 +0000] "GET /api/hotels?city=IXM HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:34:36 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:34:36 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:34:36 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:34:37 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:34:37 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:34:37 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:35:01 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:01 +0000] "POST /api/auth/login HTTP/1.1" 200 519 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:01 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:01 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:01 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:01 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:01 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:01 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:01 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:01 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 200 62 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:02 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:02 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:02 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:35:02 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:35:02 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:35:02 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:35:02 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 200 3959 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 200 1404 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 200 1132 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 200 324 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 200 5492 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:35:03 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:35:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:03 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:03 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:35:04 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:35:04 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:35:04 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:35:04 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:35:04 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:04 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:35:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:04 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:18 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:35:19 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:35:19 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:19 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:37 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:37 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:37 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:37 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:37 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:37 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:35:37 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:35:37 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:35:37 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:35:37 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:35:38 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:35:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:38 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:38 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:35:38 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:35:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:38 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:38 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:35:38 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:35:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:38 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:38 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:35:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:38 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:38 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:35:38 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:35:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:38 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:38 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:35:38 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:35:38 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:35:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:38 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:39 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:35:39 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:39 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:39 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:35:39 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:39 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:39 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:35:39 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:39 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:35:39 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:35:39 [info]: 127.0.0.1 - - [19/Mar/2026:09:05:39 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/auth/me HTTP/1.1" 200 394 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:36:03 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:36:03 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:36:03 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:36:03 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:03 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:36:04 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:04 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:04 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:36:05 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:36:05 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:36:05 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:36:05 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:36:05 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:36:05 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:36:05 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:05 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:05 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:33 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:33 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:33 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:33 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:36:33 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:36:33 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:36:33 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:36:33 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:36:34 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:36:34 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:34 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:34 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:36:34 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:36:34 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:34 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:34 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:36:34 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:36:34 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:34 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:34 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:36:34 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:36:34 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:34 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:34 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:36:34 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:36:34 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:34 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:34 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:36:35 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:36:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:35 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:35 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:36:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:35 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:35 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:36:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:35 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:35 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:36:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:35 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:35 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:36:35 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:35 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:36:37 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:36:37 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:36:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:06:37 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:00 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:00 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:00 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:00 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:00 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:37:01 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:37:01 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:37:01 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:37:01 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:37:02 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:37:02 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:37:02 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:37:02 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:37:02 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:37:02 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:02 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:37:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:02 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:24 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:37:24 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:37:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:24 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:41 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:41 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:41 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:41 +0000] "GET /api/cities/hotels/all HTTP/1.1" 403 825 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:41 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:41 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:37:41 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:37:41 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:37:41 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:37:41 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:37:42 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 14:37:42 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 14:37:42 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 14:37:42 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 14:37:42 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:37:42 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:37:42 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:37:42 [info]: 127.0.0.1 - - [19/Mar/2026:09:07:42 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:51:35 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 14:51:35 [info]: ✅ MongoDB connected: localhost
+2026-03-19 14:51:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:21:52 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:51:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:21:52 +0000] "GET /api/cities/hotels/all HTTP/1.1" 200 41 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:51:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:21:52 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:51:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:21:52 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:51:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:21:52 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:51:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:21:52 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:51:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:21:52 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:12 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:12 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:12 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:12 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:12 [info]: [Amadeus] Client initialised successfully
+2026-03-19 14:52:12 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:52:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:13 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:13 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:13 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:14 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:52:14 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:14 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:14 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:52:14 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:52:14 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:14 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:28 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:28 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:28 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:28 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:28 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:37 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:37 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:37 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:37 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:52:55 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 14:52:56 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 14:52:56 [info]: 127.0.0.1 - - [19/Mar/2026:09:22:56 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:53:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:23:02 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:53:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:23:02 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:53:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:23:02 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:53:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:23:02 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 14:53:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:23:02 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:03 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 15:00:03 [info]: ✅ MongoDB connected: localhost
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:18 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:18 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:45 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:45 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:45 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:45 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:45 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:45 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:55 [info]: [Amadeus] Client initialised successfully
+2026-03-19 15:00:55 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:00:57 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:00:57 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:57 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:59 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:59 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:59 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:59 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:59 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:59 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:59 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:59 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:00:59 [info]: 127.0.0.1 - - [19/Mar/2026:09:30:59 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:01:23 [info]: 127.0.0.1 - - [19/Mar/2026:09:31:23 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:01:23 [info]: 127.0.0.1 - - [19/Mar/2026:09:31:23 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:01:23 [info]: 127.0.0.1 - - [19/Mar/2026:09:31:23 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:01:45 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:01:46 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:01:46 [info]: 127.0.0.1 - - [19/Mar/2026:09:31:46 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:12 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 15:05:12 [info]: ✅ MongoDB connected: localhost
+2026-03-19 15:05:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:13 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:13 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:13 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:13 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:13 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:13 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:13 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:13 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:24 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:24 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:24 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:24 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:24 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:24 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:24 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:24 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:40 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:40 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:41 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:41 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:41 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:05:41 [info]: 127.0.0.1 - - [19/Mar/2026:09:35:41 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:22:37 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 15:22:37 [info]: ✅ MongoDB connected: localhost
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:08 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:08 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:21 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:21 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:21 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:21 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:21 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:21 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:33 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:33 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:33 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:33 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:23:33 [info]: 127.0.0.1 - - [19/Mar/2026:09:53:33 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:11 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 15:28:11 [info]: ✅ MongoDB connected: localhost
+2026-03-19 15:28:15 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:15 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:15 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:15 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:15 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:15 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:15 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:15 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:15 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:15 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:15 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:15 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:15 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:15 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:38 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:38 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:38 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:38 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:38 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:38 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:50 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:50 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:50 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:50 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:50 [info]: [Amadeus] Client initialised successfully
+2026-03-19 15:28:50 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:28:50 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:50 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:52 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:28:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:52 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:28:52 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:28:52 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:28:52 [info]: 127.0.0.1 - - [19/Mar/2026:09:58:52 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:02 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:02 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:02 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:02 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:17 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:17 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:17 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:17 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:17 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:17 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:19 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:29:21 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:29:21 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:21 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:25 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:25 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:25 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:25 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:25 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:25 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:28 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:28 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:29:28 [info]: 127.0.0.1 - - [19/Mar/2026:09:59:28 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:35:59 [info]: 🏨 Server running on port 5000 [development]
+2026-03-19 15:35:59 [info]: ✅ MongoDB connected: localhost
+2026-03-19 15:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:03 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:03 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:03 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:03 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:03 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:03 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:03 [info]: [Amadeus] Client initialised successfully
+2026-03-19 15:36:03 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:36:03 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:36:03 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:36:03 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:36:04 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:04 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:04 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:04 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:04 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:04 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:36:04 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:36:04 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:04 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:04 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:36:05 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:05 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:05 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:36:05 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:36:05 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:05 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:36:05 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:05 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:05 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:05 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:05 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:36:05 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:05 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:43 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:43 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:43 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:43 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:36:43 [info]: 127.0.0.1 - - [19/Mar/2026:10:06:43 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:11 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:11 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:11 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:11 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:11 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:11 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:11 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:39:11 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:39:12 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:39:12 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:39:12 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:39:12 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:39:12 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:12 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:12 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:39:13 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:39:13 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:39:13 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:39:13 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:39:13 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:13 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:39:13 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:13 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:30 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:39:31 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:39:31 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:31 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:49 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:49 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:49 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:49 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:49 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:39:49 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:39:49 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:39:49 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:39:49 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:39:50 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:39:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:50 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:50 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:39:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:50 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:50 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:39:50 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:39:50 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:39:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:50 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:50 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:39:50 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:39:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:50 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:50 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:39:50 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:39:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:50 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:50 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:39:51 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:39:51 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:51 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:51 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:39:51 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:51 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:51 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:39:51 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:51 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:51 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:39:51 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:51 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:51 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:39:51 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:51 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:54 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:54 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:54 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:54 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:39:54 [info]: 127.0.0.1 - - [19/Mar/2026:10:09:54 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:07 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:07 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:07 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:07 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:07 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:07 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:07 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:42:07 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:42:07 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:42:07 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:42:07 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:42:08 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:08 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:42:08 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:08 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:42:08 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:08 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:42:08 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:08 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:08 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:42:08 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:08 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:42:08 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:08 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:42:08 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:08 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:09 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:42:09 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:09 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:09 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:42:09 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:09 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:50 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:50 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:50 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:50 +0000] "GET /api/bookings/my HTTP/1.1" 200 10372 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:50 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:42:50 [info]: 127.0.0.1 - - [19/Mar/2026:10:12:50 +0000] "GET /api/bookings/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:06 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:06 +0000] "GET /api/bookings/my?status=pending HTTP/1.1" 200 62 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:09 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:09 +0000] "GET /api/bookings/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:28 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:28 +0000] "GET /api/spa-bookings/my HTTP/1.1" 200 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:28 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:28 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:28 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:28 +0000] "GET /api/spa-bookings/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:32 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:32 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:32 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:32 +0000] "GET /api/bookings/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:32 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:32 +0000] "GET /api/bookings/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:36 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:36 +0000] "GET /api/bookings/69b0f6e0d86aaf7eceb67850 HTTP/1.1" 200 1669 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:36 +0000] "GET /api/bookings/69b0f6e0d86aaf7eceb67850 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:59 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:59 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:59 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:59 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:59 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:59 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:59 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:43:59 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:59 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:59 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:43:59 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:43:59 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:43:59 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:43:59 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:59 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:43:59 [info]: 127.0.0.1 - - [19/Mar/2026:10:13:59 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:00 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:44:00 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:00 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:00 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:44:00 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:44:00 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:00 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:00 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:44:00 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:44:00 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:00 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:00 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:44:00 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:44:00 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:00 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:00 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:44:00 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:44:00 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:00 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:00 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:44:00 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:44:00 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:00 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:00 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:44:00 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:00 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:01 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:44:01 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:01 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:01 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:44:01 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:01 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:01 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:44:01 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:01 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:01 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:01 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:01 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:01 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:01 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:01 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:26 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:26 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:26 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:26 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:26 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:26 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:26 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:26 +0000] "GET /api/bookings/my?limit=10 HTTP/1.1" 200 10372 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:26 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:26 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:26 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:26 +0000] "GET /api/bookings/my?limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:31 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:31 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:31 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:31 +0000] "GET /api/bookings/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:31 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:31 +0000] "GET /api/bookings/my HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:36 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:36 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:36 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:36 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:44:36 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:44:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:36 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:36 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:44:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:36 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:36 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:44:36 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:44:36 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:36 +0000] "GET /api/cities/hotels/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:37 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:44:37 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:37 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:37 [info]: [Amadeus] Searching hotels in IXM (Madurai)
+2026-03-19 15:44:37 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:44:37 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:37 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:37 [info]: [Amadeus] Searching hotels in TRZ (Trichy)
+2026-03-19 15:44:37 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:44:37 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:37 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:37 [info]: [Amadeus] Searching hotels in CJB (Coimbatore)
+2026-03-19 15:44:37 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:44:37 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:37 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:37 [info]: [Amadeus] Searching hotels in MAA (Chennai)
+2026-03-19 15:44:37 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:44:37 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:37 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:37 [info]: [Amadeus] Searching hotels in SXV (Salem)
+2026-03-19 15:44:37 [info]: [Amadeus] Found 4 hotels in IXM
+2026-03-19 15:44:37 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:37 +0000] "GET /api/hotels?city=IXM HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:37 [info]: [Amadeus] Found 1 hotels in TRZ
+2026-03-19 15:44:37 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:37 +0000] "GET /api/hotels?city=TRZ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:38 [info]: [Amadeus] Found 14 hotels in CJB
+2026-03-19 15:44:38 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:38 +0000] "GET /api/hotels?city=CJB HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:38 [info]: [Amadeus] Found 20 hotels in MAA
+2026-03-19 15:44:38 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:38 +0000] "GET /api/hotels?city=MAA HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:38 [info]: [Amadeus] Found 5 hotels in SXV
+2026-03-19 15:44:38 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:38 +0000] "GET /api/hotels?city=SXV HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:40 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:40 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:40 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:40 +0000] "GET /api/bookings/my?status=pending&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
+2026-03-19 15:44:40 [info]: 127.0.0.1 - - [19/Mar/2026:10:14:40 +0000] "GET /api/memberships/packages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0"
